@@ -1,0 +1,101 @@
+{
+  "platforms": [
+    { "id": "web", "label": "Web", "icon": "🌐" },
+    { "id": "download", "label": "Download", "icon": "📥" },
+    { "id": "desktop", "label": "Desktop", "icon": "💻" },
+    { "id": "mobile", "label": "Mobile", "icon": "📱" },
+    { "id": "self-hosted", "label": "Self-Hosted", "icon": "🏠" },
+    {
+      "id": "android",
+      "label": "Android",
+      "icon": "favicons/browsers/android.svg",
+      "iconType": "image"
+    }
+  ],
+  "contentTypes": [
+    { "id": "movies", "label": "Movies", "icon": "🎬", "showInFilter": true, "order": 1 },
+    { "id": "tv-shows", "label": "TV Shows", "icon": "📺", "showInFilter": true, "order": 2 },
+    { "id": "anime", "label": "Anime", "icon": "🌸", "showInFilter": true, "order": 3 },
+    { "id": "animated", "label": "Animated", "icon": "🎨", "showInFilter": true, "order": 4 },
+    { "id": "documentaries", "label": "Documentaries", "icon": "📖", "showInFilter": true, "order": 5 },
+    { "id": "sports", "label": "Sports", "icon": "⚽", "showInFilter": true, "order": 6 },
+    { "id": "live", "label": "Live", "icon": "🔴", "showInFilter": true, "order": 7 },
+    { "id": "tv-channels", "label": "TV", "icon": "📡", "showInFilter": true, "order": 8 },
+    { "id": "radio", "label": "Radio", "icon": "📻", "showInFilter": true, "order": 9 },
+    { "id": "books", "label": "Books", "icon": "📚", "showInFilter": false, "order": 10 },
+    { "id": "audiobooks", "label": "Audiobooks", "icon": "🎧", "showInFilter": false, "order": 11 },
+    { "id": "articles", "label": "Articles", "icon": "📄", "showInFilter": false, "order": 12 },
+    { "id": "manga", "label": "Manga", "icon": "🖼️", "showInFilter": false, "order": 13 },
+    { "id": "course", "label": "Courses", "icon": "📖", "showInFilter": false, "order": 14 },
+    { "id": "interactive", "label": "Interactive", "icon": "🎮", "showInFilter": false, "order": 15 },
+    { "id": "guide", "label": "Guides", "icon": "📝", "showInFilter": false, "order": 16 },
+    { "id": "extension", "label": "Extensions", "icon": "🧩", "showInFilter": false, "order": 17 },
+    { "id": "search-engine", "label": "Search Engines", "icon": "🔍", "showInFilter": false, "order": 18 },
+    { "id": "keyboard", "label": "Keyboards", "icon": "⌨️", "showInFilter": false, "order": 19 },
+    { "id": "templates", "label": "Templates", "icon": "📦", "showInFilter": false, "order": 20 },
+    { "id": "video-tools", "label": "Video Tools", "icon": "🎬", "showInFilter": true, "order": 21 },
+    { "id": "music-tools", "label": "Music Tools", "icon": "🎵", "showInFilter": true, "order": 22 },
+    { "id": "software", "label": "Software", "icon": "💻", "showInFilter": true, "order": 23 }
+  ],
+  "tools": [
+    {
+      "id": "youtube",
+      "label": "YouTube",
+      "icon": "favicons/music/youtube.png",
+      "iconType": "image"
+    },
+    { "id": "pre-installed", "label": "Pre-installed", "icon": "📦" },
+    {
+      "id": "torrent",
+      "label": "Torrent",
+      "icon": "favicons/gaming/qbittorrent.png",
+      "iconType": "image"
+    },
+    { "id": "direct-download", "label": "Direct Download", "icon": "⬇️" },
+    { "id": "repack", "label": "RePack", "icon": "📦" },
+    { "id": "online", "label": "Online", "icon": "🌐" },
+    { "id": "emulators", "label": "Emulators", "icon": "🎮" },
+    { "id": "classic", "label": "Classic", "icon": "🕹️" },
+    { "id": "trainer", "label": "Trainer", "icon": "🎯" },
+    { "id": "info", "label": "Info", "icon": "ℹ️" },
+    { "id": "adult", "label": "18+", "icon": "🔞" },
+    {
+      "id": "vr",
+      "label": "VR",
+      "icon": "favicons/gaming/vr-badge.png",
+      "iconType": "image"
+    }
+  ],
+  "toolFilterOrder": [
+    "youtube",
+    "pre-installed",
+    "torrent",
+    "direct-download",
+    "repack",
+    "online",
+    "emulators",
+    "classic",
+    "trainer",
+    "info",
+    "adult",
+    "vr"
+  ],
+  "sports": [
+    { "id": "soccer", "label": "Soccer", "icon": "⚽", "order": 1 },
+    { "id": "nba", "label": "NBA", "icon": "🏀", "order": 2 },
+    { "id": "mma", "label": "MMA", "icon": "🥊", "order": 3 },
+    { "id": "f1", "label": "F1", "icon": "🏎️", "order": 4 }
+  ],
+  "topics": [
+    { "id": "typing", "label": "Typing", "icon": "⌨️", "order": 1 },
+    { "id": "linux", "label": "Linux", "icon": "🐧", "order": 2 },
+    { "id": "technology", "label": "Technology", "icon": "💻", "order": 3 },
+    { "id": "privacy", "label": "Privacy", "icon": "🔒", "order": 4 }
+  ],
+  "blockerTypes": [
+    { "id": "browser-extension", "label": "Browser Extension", "icon": "🌐", "order": 1 },
+    { "id": "self-hosted", "label": "Self-Hosted", "icon": "🏠", "order": 2 },
+    { "id": "dns-service", "label": "DNS Service", "icon": "🛡️", "order": 3 },
+    { "id": "blocklist", "label": "Blocklists", "icon": "📄", "order": 4 }
+  ]
+}

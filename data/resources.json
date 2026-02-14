@@ -1294,7 +1294,8 @@
             "classic",
             "trainer",
             "info",
-            "adult"
+            "adult",
+            "vr"
           ]
         }
       ],
@@ -1440,6 +1441,38 @@
                   "tools": [
                     "online",
                     "torrent"
+                  ]
+                },
+                {
+                  "name": "Xatab Repacks",
+                  "url": "disclaimer.html",
+                  "description": "Game repacks by Xatab team",
+                  "icon": "favicons/gaming/xatab.png",
+                  "platforms": [
+                    "download"
+                  ],
+                  "languages": [
+                    "RU"
+                  ],
+                  "tools": [
+                    "torrent",
+                    "repack"
+                  ]
+                },
+                {
+                  "name": "VRTor",
+                  "url": "disclaimer.html",
+                  "description": "VR games tracker and community",
+                  "icon": "favicons/gaming/vrtor.png",
+                  "platforms": [
+                    "download"
+                  ],
+                  "languages": [
+                    "RU"
+                  ],
+                  "tools": [
+                    "torrent",
+                    "vr"
                   ]
                 }
               ]
@@ -1800,23 +1833,6 @@
               "url": "disclaimer.html",
               "description": "Large Russian torrent community",
               "icon": "favicons/torrents/rutracker.png"
-            }
-          ]
-        },
-        {
-          "title": "Games",
-          "links": [
-            {
-              "name": "Xatab Repacks",
-              "url": "disclaimer.html",
-              "description": "Game repacks by Xatab team",
-              "icon": "favicons/torrents/xatab.png"
-            },
-            {
-              "name": "VRTor",
-              "url": "disclaimer.html",
-              "description": "VR games torrent tracker",
-              "icon": "favicons/torrents/vrtor.png"
             }
           ]
         },

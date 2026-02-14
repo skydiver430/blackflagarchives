@@ -1,196 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <meta name="referrer" content="strict-origin-when-cross-origin">
-
-    <!-- SEO & Info -->
-    <meta name="description" content="Your personal gateway to curated entertainment, tools, and resources">
-    <meta name="author" content="Black Flag Archives">
-    <meta name="theme-color" content="#1a1d29">
-
-    <!-- Open Graph -->
-    <meta property="og:title" content="Black Flag Archives">
-    <meta property="og:description" content="Your personal gateway to curated entertainment, tools, and resources">
-    <meta property="og:type" content="website">
-    <meta property="og:locale" content="en_US">
-
-    <!-- Favicons: SVG has embedded image + zoom so logo fills tab (no external ref = works); ICO/PNG for Safari/fallback -->
-    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
-    <link rel="icon" type="image/x-icon" href="images/favicon-48x48.ico">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <meta name="description" content="Your personal gateway to curated entertainment, tools, and resources" />
+    <meta name="author" content="Black Flag Archives" />
+    <meta name="theme-color" content="#1a1d29" />
+    <meta property="og:title" content="Black Flag Archives" />
+    <meta property="og:description" content="Your personal gateway to curated entertainment, tools, and resources" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_US" />
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
+    <link rel="icon" type="image/x-icon" href="images/favicon-48x48.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png" />
+    <link rel="preload" href="fonts/Inter-Regular.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="fonts/Geist-SemiBold.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="data/resources.json" as="fetch" crossorigin="anonymous" />
+    <link rel="preload" href="images/logo-hero.png" as="image" />
     <title>Black Flag Archives</title>
-
-    <!-- Self-hosted fonts -->
-    <link rel="preload" href="fonts/Inter-Regular.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="preload" href="fonts/Geist-SemiBold.woff2" as="font" type="font/woff2" crossorigin>
-
-    <!-- Styles -->
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/themes.css">
-
-    <!-- Preload critical resources -->
-    <link rel="preload" href="data/resources.json" as="fetch" crossorigin="anonymous">
-    <link rel="preload" href="images/logo-hero.png" as="image">
-</head>
-<body>
-    <a href="#main-content" class="skip-to-content">Skip to content</a>
-
-    <!-- Header -->
-    <header class="site-header header-hidden" id="site-header">
-        <div class="container">
-            <div id="header-left-actions" class="header-left-actions" role="navigation" aria-label="Donate and report"></div>
-            <div class="logo-section">
-                <a href="#/" class="logo" id="header-logo-link" aria-label="Black Flag Archives - Home">
-                    <img class="logo-icon" src="images/logo-header-resized.png" alt="Black Flag Archives logo" width="56" height="56">
-                </a>
-                <a href="#/" class="logo-title-link" id="header-title-link" aria-label="Black Flag Archives - Home">
-                    <div class="title-container">
-                        <h1 class="site-title" id="header-title">Black Flag Archives</h1>
-                        <p class="site-tagline" id="header-tagline">In a world without gold, we might have been heroes!</p>
-                    </div>
-                </a>
-            </div>
-
-            <nav aria-label="Site controls">
-                <div class="header-controls">
-                    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
-                        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <circle cx="12" cy="12" r="5"></circle>
-                            <line x1="12" y1="1" x2="12" y2="3"></line>
-                            <line x1="12" y1="21" x2="12" y2="23"></line>
-                            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-                            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-                            <line x1="1" y1="12" x2="3" y2="12"></line>
-                            <line x1="21" y1="12" x2="23" y2="12"></line>
-                            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-                            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
-                        </svg>
-                        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-                        </svg>
-                    </button>
-                </div>
-            </nav>
-        </div>
-    </header>
-
-    <!-- Floating Theme Toggle (homepage only; category uses header toggle) -->
-    <button id="floating-theme-toggle" class="floating-theme-toggle" aria-label="Toggle theme">
-        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <circle cx="12" cy="12" r="5"></circle>
-            <line x1="12" y1="1" x2="12" y2="3"></line>
-            <line x1="12" y1="21" x2="12" y2="23"></line>
-            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-            <line x1="1" y1="12" x2="3" y2="12"></line>
-            <line x1="21" y1="12" x2="23" y2="12"></line>
-            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
-        </svg>
-        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-        </svg>
-    </button>
-
-    <!-- Search Bar -->
-    <section class="search-section">
-        <div class="container">
-            <h1 class="sr-only">Black Flag Archives</h1>
-            <div class="search-hero-logo">
-                <a href="#/" aria-label="Black Flag Archives - Home">
-                    <img src="images/logo-hero.png" alt="Black Flag Archives" width="240" height="240" class="hero-logo-img" fetchpriority="high">
-                </a>
-            </div>
-            <p class="hero-tagline">In a world without gold, we might have been heroes!</p>
-            <!-- Actions row aligned with search field; same container as category grid -->
-            <div id="homepage-top-actions" class="homepage-top-actions search-actions-row" role="navigation" aria-label="Site actions">
-                <div id="homepage-left-actions" class="homepage-left-actions" aria-label="Donate and report"></div>
-                <form role="search" id="search-form" class="search-wrapper">
-                    <svg class="search-icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <circle cx="11" cy="11" r="8"></circle>
-                        <path d="m21 21-4.35-4.35"></path>
-                    </svg>
-                    <input
-                        type="search"
-                        id="search-input"
-                        class="search-input"
-                        placeholder="Search categories or resources..."
-                        aria-label="Search resources"
-                    >
-                </form>
-                <div id="floating-nav-actions" class="floating-nav-actions" aria-label="Quick links"></div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Main Content -->
-    <main class="main-content" id="main-content">
-        <div class="container">
-            <div id="categories-grid" class="categories-grid">
-                <!-- Categories will be loaded dynamically -->
-                <div class="loading-state">
-                    <div class="spinner"></div>
-                    <p>Loading resources...</p>
-                </div>
-            </div>
-
-            <!-- Empty State (no search results) -->
-            <div id="empty-state" class="empty-state hidden" role="status" aria-live="polite">
-                <div class="empty-state-inner">
-                    <svg class="empty-state-icon" viewBox="0 0 80 80" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true">
-                        <circle cx="34" cy="34" r="22"/>
-                        <path d="M50 50l14 14"/>
-                        <circle cx="34" cy="34" r="14" stroke-dasharray="3 3" opacity="0.6"/>
-                    </svg>
-                    <h2 class="empty-state-title">No results found</h2>
-                    <p class="empty-state-subline">Try adjusting your search terms.</p>
-                    <div class="empty-state-tips-wrap">
-                        <p class="empty-state-tips-heading">Try:</p>
-                        <ul class="empty-state-tips">
-                            <li><span class="empty-state-tip-icon" aria-hidden="true">&#10003;</span>Check your spelling</li>
-                            <li><span class="empty-state-tip-icon" aria-hidden="true">&#10003;</span>Try different keywords</li>
-                            <li><span class="empty-state-tip-icon" aria-hidden="true">&#10003;</span>Try more general terms</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </main>
-
-    <!-- Footer -->
-    <footer class="site-footer">
-        <div class="container">
-            <p class="footer-quote">"So let the black flag signal nothing but your allegiance to man's natural freedoms."</p>
-            <p class="footer-attribution">- Edward Thatch (Blackbeard)</p>
-            <div class="footer-bottom">
-                <p class="footer-copyright">&copy; 2026 Black Flag Archives</p>
-                <p class="footer-note">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
-                        <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
-                    </svg>
-                    Secured Connection
-                </p>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Back to Top -->
-    <button id="back-to-top" class="back-to-top" aria-label="Back to top">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="M18 15l-6-6-6 6"/>
-        </svg>
-    </button>
-
-    <!-- Scripts -->
-    <script src="js/theme-switcher.js" defer></script>
-    <script src="https://cdn.jsdelivr.net/npm/fuse.js@7/dist/fuse.min.js" defer></script>
-    <script src="js/app.js" defer></script>
-</body>
+    <script type="module" crossorigin src="./assets/index-ERdd7lNZ.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-0DSRzLOf.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
 </html>

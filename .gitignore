@@ -12,3 +12,6 @@ desktop.ini
 # Env (if added later)
 .env
 .env.local
+
+# SSH key for GitHub (do not commit)
+.ssh-keys/
