@@ -1,0 +1,2082 @@
+{
+  "categories": [
+    {
+      "title": "Books & Audiobooks",
+      "icon": "📚",
+      "description": "E-books, audiobooks, manga, and research papers",
+      "subcategories": [
+        {
+          "title": "E-Books & Papers",
+          "subcategories": [
+            {
+              "title": "E-Books & Papers",
+              "links": [
+                {
+                  "name": "Z-Library",
+                  "url": "disclaimer.html",
+                  "description": "World's largest free e-book library",
+                  "icon": "favicons/learning-education/z-library.png",
+                  "platforms": [
+                    "download",
+                    "desktop",
+                    "mobile"
+                  ],
+                  "languages": [
+                    "MULTI",
+                    "EN",
+                    "RU"
+                  ],
+                  "contentTypes": [
+                    "books",
+                    "articles"
+                  ],
+                  "pricing": "free",
+                  "monitor": "disclaimer.html"
+                },
+                {
+                  "name": "Library Genesis",
+                  "url": "disclaimer.html",
+                  "description": "Free access to books and scientific articles",
+                  "icon": "favicons/learning-education/libgen.png",
+                  "platforms": [
+                    "download"
+                  ],
+                  "languages": [
+                    "MULTI",
+                    "EN",
+                    "RU"
+                  ],
+                  "contentTypes": [
+                    "books",
+                    "articles"
+                  ],
+                  "pricing": "free"
+                },
+                {
+                  "name": "Anna's Archive",
+                  "url": "disclaimer.html",
+                  "description": "Search engine aggregating LibGen, Sci-Hub, and Z-Library",
+                  "icon": "favicons/learning-education/annas-archive.png",
+                  "platforms": [
+                    "download"
+                  ],
+                  "languages": [
+                    "MULTI",
+                    "EN",
+                    "RU"
+                  ],
+                  "contentTypes": [
+                    "books",
+                    "articles"
+                  ],
+                  "pricing": "free"
+                },
+                {
+                  "name": "Liber3",
+                  "url": "disclaimer.html",
+                  "description": "Decentralized e-book library on Web3",
+                  "icon": "favicons/learning-education/liber3.png",
+                  "platforms": [
+                    "download"
+                  ],
+                  "languages": [
+                    "MULTI",
+                    "EN",
+                    "RU"
+                  ],
+                  "contentTypes": [
+                    "books"
+                  ],
+                  "pricing": "free"
+                },
+                {
+                  "name": "Project Gutenberg",
+                  "url": "disclaimer.html",
+                  "description": "Over 70,000 free public domain e-books",
+                  "icon": "favicons/learning-education/gutenberg.png",
+                  "platforms": [
+                    "web",
+                    "download"
+                  ],
+                  "languages": [
+                    "MULTI",
+                    "EN"
+                  ],
+                  "contentTypes": [
+                    "books"
+                  ],
+                  "pricing": "free"
+                },
+                {
+                  "name": "Sci-Hub",
+                  "url": "disclaimer.html",
+                  "description": "Free access to millions of research papers and articles",
+                  "icon": "favicons/learning-education/sci-hub.png",
+                  "platforms": [
+                    "download"
+                  ],
+                  "languages": [
+                    "MULTI",
+                    "EN"
+                  ],
+                  "contentTypes": [
+                    "articles"
+                  ],
+                  "pricing": "free",
+                  "monitor": "disclaimer.html"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Manga",
+          "links": [
+            {
+              "name": "RiveManga",
+              "url": "disclaimer.html",
+              "description": "Free manga streaming library",
+              "icon": "favicons/learning-education/rivemanga.png",
+              "platforms": [
+                "web"
+              ],
+              "languages": [
+                "MULTI",
+                "EN",
+                "RU"
+              ],
+              "contentTypes": [
+                "manga"
+              ],
+              "pricing": "free"
+            }
+          ]
+        },
+        {
+          "title": "Audiobooks",
+          "links": [
+            {
+              "name": "AudioBook Bay",
+              "url": "disclaimer.html",
+              "description": "Free unabridged audiobook downloads",
+              "icon": "favicons/learning-education/audiobookbay.png",
+              "platforms": [
+                "download"
+              ],
+              "languages": [
+                "MULTI",
+                "EN",
+                "RU"
+              ],
+              "contentTypes": [
+                "audiobooks"
+              ],
+              "pricing": "free"
+            },
+            {
+              "name": "Full Length Audiobooks",
+              "url": "disclaimer.html",
+              "description": "Stream full audiobooks online, no account required",
+              "icon": "favicons/learning-education/fulllengthaudiobooks.png",
+              "platforms": [
+                "web",
+                "download"
+              ],
+              "languages": [
+                "EN"
+              ],
+              "contentTypes": [
+                "audiobooks"
+              ],
+              "pricing": "free"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Education & Learning",
+      "icon": "🎓",
+      "description": "Online courses, tutorials, and educational platforms",
+      "subcategories": [
+        {
+          "title": "Typing Practice",
+          "links": [
+            {
+              "name": "TypingClub",
+              "url": "disclaimer.html",
+              "description": "Free interactive typing lessons, games, and challenges for all skill levels",
+              "icon": "favicons/education-learning/typingclub.png",
+              "platforms": [
+                "web"
+              ],
+              "languages": [
+                "EN"
+              ],
+              "contentTypes": [
+                "interactive"
+              ],
+              "topics": [
+                "typing"
+              ],
+              "pricing": "free"
+            },
+            {
+              "name": "TypeLit.io",
+              "url": "disclaimer.html",
+              "description": "Practice typing by retyping classic literature in 9 languages",
+              "icon": "favicons/education-learning/typelit.png",
+              "platforms": [
+                "web"
+              ],
+              "languages": [
+                "MULTI",
+                "EN"
+              ],
+              "contentTypes": [
+                "interactive"
+              ],
+              "topics": [
+                "typing"
+              ],
+              "pricing": "free"
+            },
+            {
+              "name": "keybr.com",
+              "url": "disclaimer.html",
+              "description": "AI-powered typing trainer that adapts lessons to your weakest keys",
+              "icon": "favicons/education-learning/keybr.ico",
+              "platforms": [
+                "web"
+              ],
+              "languages": [
+                "MULTI",
+                "EN"
+              ],
+              "contentTypes": [
+                "interactive"
+              ],
+              "topics": [
+                "typing"
+              ],
+              "pricing": "free"
+            }
+          ]
+        },
+        {
+          "title": "Linux & Command Line",
+          "links": [
+            {
+              "name": "CMD Challenge",
+              "url": "disclaimer.html",
+              "description": "Interactive command-line challenges solved directly in the browser",
+              "icon": "favicons/education-learning/cmdchallenge.png",
+              "platforms": [
+                "web"
+              ],
+              "languages": [
+                "EN"
+              ],
+              "contentTypes": [
+                "interactive"
+              ],
+              "topics": [
+                "linux"
+              ],
+              "pricing": "free"
+            },
+            {
+              "name": "LabEx Linux Journey",
+              "url": "disclaimer.html",
+              "description": "Hands-on Linux skill tree with interactive labs and exercises",
+              "icon": "favicons/education-learning/labex.ico",
+              "platforms": [
+                "web"
+              ],
+              "languages": [
+                "EN",
+                "RU"
+              ],
+              "contentTypes": [
+                "course"
+              ],
+              "topics": [
+                "linux"
+              ],
+              "pricing": "free"
+            }
+          ]
+        },
+        {
+          "title": "Technology Courses",
+          "links": [
+            {
+              "name": "LabEx Learn",
+              "url": "disclaimer.html",
+              "description": "Hands-on tech courses covering Linux, DevOps, programming, and more",
+              "icon": "favicons/education-learning/labex.ico",
+              "platforms": [
+                "web"
+              ],
+              "languages": [
+                "EN"
+              ],
+              "contentTypes": [
+                "course"
+              ],
+              "topics": [
+                "technology"
+              ],
+              "pricing": "free"
+            }
+          ]
+        },
+        {
+          "title": "Privacy & Anonymity",
+          "links": [
+            {
+              "name": "The Hitchhiker's Guide",
+              "url": "disclaimer.html",
+              "description": "Comprehensive guide to online anonymity and privacy by Anonymous Planet",
+              "icon": "favicons/education-learning/anonymousplanet.png",
+              "platforms": [
+                "web"
+              ],
+              "languages": [
+                "EN"
+              ],
+              "contentTypes": [
+                "guide"
+              ],
+              "topics": [
+                "privacy"
+              ],
+              "pricing": "free",
+              "monitor": "disclaimer.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "AdBlockers",
+      "icon": "🛡️",
+      "description": "Browser extensions, self-hosted solutions, and DNS services",
+      "subcategories": [
+        {
+          "title": "Browser Extensions",
+          "links": [
+            {
+              "name": "uBlock Origin",
+              "description": "Efficient wide-spectrum content blocker",
+              "icon": "favicons/adblockers/ublock-origin.png",
+              "browsers": {
+                "firefox": "disclaimer.html",
+                "chrome": "disclaimer.html"
+              },
+              "blockerType": "browser-extension"
+            },
+            {
+              "name": "AdGuard AdBlocker",
+              "description": "Blocks ads and protects privacy",
+              "icon": "favicons/adblockers/adguard.png",
+              "browsers": {
+                "firefox": "disclaimer.html",
+                "chrome": "disclaimer.html"
+              },
+              "blockerType": "browser-extension"
+            },
+            {
+              "name": "Adblock Plus",
+              "description": "Free ad blocker for all browsers",
+              "icon": "favicons/adblockers/adblock-plus.png",
+              "browsers": {
+                "firefox": "disclaimer.html",
+                "chrome": "disclaimer.html"
+              },
+              "blockerType": "browser-extension"
+            }
+          ]
+        },
+        {
+          "title": "Self-Hosted Solutions",
+          "links": [
+            {
+              "name": "Technitium DNS Server",
+              "description": "Self-hosted DNS server for privacy, security, and ad blocking",
+              "icon": "favicons/adblockers/technitium.png",
+              "actions": {
+                "github": "disclaimer.html",
+                "instructions": "disclaimer.html"
+              },
+              "blockerType": "self-hosted"
+            },
+            {
+              "name": "Pi-hole",
+              "description": "Network-wide ad blocker running on your local network",
+              "icon": "favicons/adblockers/pihole.png",
+              "actions": {
+                "github": "disclaimer.html",
+                "instructions": "disclaimer.html"
+              },
+              "blockerType": "self-hosted"
+            },
+            {
+              "name": "AdGuard Home",
+              "description": "Network-wide ad and tracker blocking DNS server with web interface",
+              "icon": "favicons/adblockers/adguard-home.png",
+              "actions": {
+                "github": "disclaimer.html",
+                "instructions": "disclaimer.html"
+              },
+              "blockerType": "self-hosted"
+            },
+            {
+              "name": "DNS Blocklists",
+              "description": "Curated collection of blocklists for ad blocking and privacy",
+              "icon": "📄",
+              "browsers": {
+                "github": "disclaimer.html"
+              },
+              "blockerType": "blocklist"
+            }
+          ]
+        },
+        {
+          "title": "DNS Services",
+          "links": [
+            {
+              "name": "Mullvad DNS",
+              "url": "disclaimer.html",
+              "description": "Privacy-focused DNS blocking ads, trackers, and malware",
+              "icon": "favicons/adblockers/mullvad.png",
+              "type": "dns-service",
+              "dnsAddresses": [
+                "194.242.2.4"
+              ],
+              "blockerType": "dns-service"
+            },
+            {
+              "name": "Quad9",
+              "url": "disclaimer.html",
+              "description": "Free DNS service with no logging, blocks malware and provides maximum privacy",
+              "icon": "favicons/adblockers/quad9.png",
+              "type": "dns-service",
+              "dnsAddresses": [
+                "9.9.9.9"
+              ],
+              "blockerType": "dns-service"
+            },
+            {
+              "name": "AdGuard DNS",
+              "url": "disclaimer.html",
+              "description": "Free privacy-oriented DNS blocking ads and trackers",
+              "icon": "favicons/adblockers/adguard-dns.png",
+              "type": "dns-service",
+              "dnsAddresses": [
+                "94.140.14.14"
+              ],
+              "blockerType": "dns-service"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Media Streaming",
+      "icon": "🎬",
+      "description": "Stream movies, shows, anime, and live TV",
+      "subcategories": [
+        {
+          "title": "Movies & Series",
+          "fullWidth": true,
+          "subcategories": [
+            {
+              "title": "English",
+              "links": [
+                {
+                  "name": "P-Stream",
+                  "url": "disclaimer.html",
+                  "description": "Online movie streaming",
+                  "icon": "favicons/media-streaming/movies-series/pstream.png",
+                  "platforms": [
+                    "web",
+                    "desktop"
+                  ],
+                  "languages": [
+                    "EN"
+                  ],
+                  "contentTypes": [
+                    "movies",
+                    "tv-shows"
+                  ]
+                },
+                {
+                  "name": "Cineby",
+                  "url": "disclaimer.html",
+                  "description": "Free streaming platform for movies, TV shows, and animated content",
+                  "icon": "favicons/media-streaming/movies-series/cineby.ico",
+                  "platforms": [
+                    "web"
+                  ],
+                  "languages": [
+                    "EN"
+                  ],
+                  "contentTypes": [
+                    "movies",
+                    "tv-shows",
+                    "animated"
+                  ]
+                },
+                {
+                  "name": "FMovies",
+                  "url": "disclaimer.html",
+                  "description": "Stream movies, series, and animated content online",
+                  "icon": "favicons/media-streaming/movies-series/fmovies.png",
+                  "platforms": [
+                    "web"
+                  ],
+                  "languages": [
+                    "EN"
+                  ],
+                  "contentTypes": [
+                    "movies",
+                    "tv-shows",
+                    "animated"
+                  ]
+                },
+                {
+                  "name": "Flixer",
+                  "url": "disclaimer.html",
+                  "description": "Watch movies, TV shows, and animated series",
+                  "icon": "favicons/media-streaming/movies-series/flixer.png",
+                  "platforms": [
+                    "web"
+                  ],
+                  "languages": [
+                    "EN"
+                  ],
+                  "contentTypes": [
+                    "movies",
+                    "tv-shows",
+                    "animated"
+                  ]
+                },
+                {
+                  "name": "Cinegram",
+                  "url": "disclaimer.html",
+                  "description": "Stream movies, series, and animated content",
+                  "icon": "favicons/media-streaming/movies-series/cinegram.png",
+                  "platforms": [
+                    "web"
+                  ],
+                  "languages": [
+                    "EN"
+                  ],
+                  "contentTypes": [
+                    "movies",
+                    "tv-shows",
+                    "animated"
+                  ]
+                },
+                {
+                  "name": "ReelRover",
+                  "url": "disclaimer.html",
+                  "description": "Free streaming platform for movies and TV shows",
+                  "icon": "favicons/media-streaming/movies-series/reelrover.png",
+                  "platforms": [
+                    "desktop",
+                    "mobile"
+                  ],
+                  "languages": [
+                    "EN"
+                  ],
+                  "contentTypes": [
+                    "movies",
+                    "tv-shows"
+                  ]
+                },
+                {
+                  "name": "Watch32",
+                  "url": "disclaimer.html",
+                  "description": "English movies and series online",
+                  "icon": "favicons/media-streaming/movies-series/watch32.png",
+                  "platforms": [
+                    "web"
+                  ],
+                  "languages": [
+                    "EN"
+                  ],
+                  "contentTypes": [
+                    "movies",
+                    "tv-shows"
+                  ]
+                },
+                {
+                  "name": "Nepu.to Movies",
+                  "url": "disclaimer.html",
+                  "description": "Movies and series streaming platform",
+                  "icon": "favicons/media-streaming/movies-series/nepu-movies.png",
+                  "platforms": [
+                    "web"
+                  ],
+                  "languages": [
+                    "EN"
+                  ],
+                  "contentTypes": [
+                    "movies",
+                    "tv-shows"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Russian",
+              "links": [
+                {
+                  "name": "Kinogo",
+                  "url": "disclaimer.html",
+                  "description": "Russian movies and TV shows online",
+                  "icon": "favicons/media-streaming/movies-series/kinogo.png",
+                  "platforms": [
+                    "web"
+                  ],
+                  "languages": [
+                    "RU"
+                  ],
+                  "contentTypes": [
+                    "movies",
+                    "tv-shows"
+                  ]
+                },
+                {
+                  "name": "Kinokrad",
+                  "url": "disclaimer.html",
+                  "description": "Movies and TV shows online",
+                  "icon": "favicons/media-streaming/movies-series/kinokrad.ico",
+                  "platforms": [
+                    "web"
+                  ],
+                  "languages": [
+                    "RU"
+                  ],
+                  "contentTypes": [
+                    "movies",
+                    "tv-shows"
+                  ],
+                  "vpnRequired": true
+                },
+                {
+                  "name": "HDRezka",
+                  "url": "disclaimer.html",
+                  "description": "Movies and TV shows streaming",
+                  "icon": "favicons/media-streaming/movies-series/rezka.png",
+                  "platforms": [
+                    "web"
+                  ],
+                  "languages": [
+                    "RU"
+                  ],
+                  "contentTypes": [
+                    "movies",
+                    "tv-shows"
+                  ],
+                  "vpnRequired": true
+                },
+                {
+                  "name": "Gidonline",
+                  "url": "disclaimer.html",
+                  "description": "Movies and TV shows online",
+                  "icon": "favicons/media-streaming/movies-series/gidonline.ico",
+                  "platforms": [
+                    "web"
+                  ],
+                  "languages": [
+                    "RU"
+                  ],
+                  "contentTypes": [
+                    "movies",
+                    "tv-shows"
+                  ],
+                  "vpnRequired": true
+                }
+              ]
+            },
+            {
+              "title": "Armenian",
+              "links": [
+                {
+                  "name": "HayerTv",
+                  "url": "disclaimer.html",
+                  "description": "Armenian movies and TV content",
+                  "icon": "favicons/media-streaming/movies-series/hayertv.png",
+                  "platforms": [
+                    "web"
+                  ],
+                  "languages": [
+                    "AM"
+                  ],
+                  "contentTypes": [
+                    "movies",
+                    "tv-shows"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Anime",
+          "links": [
+            {
+              "name": "KickAssAnime",
+              "url": "disclaimer.html",
+              "description": "Anime streaming with SUB and DUB options",
+              "icon": "favicons/media-streaming/anime/kickassanime.png",
+              "platforms": [
+                "web"
+              ],
+              "languages": [
+                "EN",
+                "JP"
+              ],
+              "contentTypes": [
+                "anime"
+              ],
+              "audioOptions": [
+                "dub",
+                "sub"
+              ]
+            },
+            {
+              "name": "Nepu.to Anime",
+              "url": "disclaimer.html",
+              "description": "Anime streaming with SUB and DUB",
+              "icon": "favicons/media-streaming/anime/nepu-anime.png",
+              "platforms": [
+                "web"
+              ],
+              "languages": [
+                "EN",
+                "JP"
+              ],
+              "contentTypes": [
+                "anime"
+              ],
+              "audioOptions": [
+                "dub",
+                "sub"
+              ]
+            },
+            {
+              "name": "AniWatch TV",
+              "url": "disclaimer.html",
+              "description": "Watch anime with subtitles and dubbed versions",
+              "icon": "favicons/media-streaming/anime/aniwatchtv.png",
+              "platforms": [
+                "web"
+              ],
+              "languages": [
+                "EN",
+                "JP"
+              ],
+              "contentTypes": [
+                "anime"
+              ],
+              "audioOptions": [
+                "dub",
+                "sub"
+              ]
+            },
+            {
+              "name": "9AnimeTV",
+              "url": "disclaimer.html",
+              "description": "Anime streaming with mobile app support",
+              "icon": "favicons/media-streaming/anime/9animetv.png",
+              "platforms": [
+                "web",
+                "mobile"
+              ],
+              "languages": [
+                "EN",
+                "JP"
+              ],
+              "contentTypes": [
+                "anime"
+              ],
+              "audioOptions": [
+                "dub",
+                "sub"
+              ]
+            },
+            {
+              "name": "AniKai",
+              "url": "disclaimer.html",
+              "description": "Stream anime with SUB and DUB options",
+              "icon": "favicons/media-streaming/anime/anikai.png",
+              "platforms": [
+                "web"
+              ],
+              "languages": [
+                "EN",
+                "JP"
+              ],
+              "contentTypes": [
+                "anime"
+              ],
+              "audioOptions": [
+                "dub",
+                "sub"
+              ]
+            },
+            {
+              "name": "HiAnime",
+              "url": "disclaimer.html",
+              "description": "Anime streaming site",
+              "icon": "favicons/media-streaming/anime/hianime.png",
+              "platforms": [
+                "web"
+              ],
+              "languages": [
+                "EN",
+                "JP"
+              ],
+              "contentTypes": [
+                "anime"
+              ],
+              "audioOptions": [
+                "dub",
+                "sub"
+              ]
+            },
+            {
+              "name": "Yummy Anime",
+              "url": "disclaimer.html",
+              "description": "Russian anime streaming site",
+              "icon": "favicons/media-streaming/anime/yummyani.png",
+              "platforms": [
+                "web"
+              ],
+              "languages": [
+                "RU",
+                "JP"
+              ],
+              "contentTypes": [
+                "anime"
+              ],
+              "audioOptions": [
+                "dub",
+                "sub"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Live TV & Sports",
+          "links": [
+            {
+              "name": "Antifriz TV",
+              "url": "disclaimer.html",
+              "description": "RU/AM/EN TV channels streaming",
+              "icon": "favicons/media-streaming/live-tv-sports/antifriz.png",
+              "platforms": [
+                "desktop",
+                "mobile"
+              ],
+              "languages": [
+                "RU",
+                "AM"
+              ],
+              "contentTypes": [
+                "tv-channels"
+              ],
+              "pricing": "paid"
+            },
+            {
+              "name": "Goool365",
+              "url": "disclaimer.html",
+              "description": "Russian soccer live streams",
+              "icon": "favicons/media-streaming/live-tv-sports/goool365.png",
+              "platforms": [
+                "web"
+              ],
+              "languages": [
+                "RU"
+              ],
+              "contentTypes": [
+                "sports",
+                "live"
+              ],
+              "sports": [
+                "soccer"
+              ]
+            },
+            {
+              "name": "Goal1 Live",
+              "url": "disclaimer.html",
+              "description": "F1 and sports live streaming",
+              "icon": "favicons/media-streaming/live-tv-sports/goal1live.png",
+              "platforms": [
+                "web"
+              ],
+              "languages": [
+                "EN"
+              ],
+              "contentTypes": [
+                "sports",
+                "live"
+              ],
+              "sports": [
+                "soccer",
+                "nba",
+                "mma",
+                "f1"
+              ]
+            },
+            {
+              "name": "GetStream Live",
+              "url": "disclaimer.html",
+              "description": "Live sports streaming platform",
+              "icon": "favicons/media-streaming/live-tv-sports/getstream.png",
+              "platforms": [
+                "web"
+              ],
+              "languages": [
+                "EN"
+              ],
+              "contentTypes": [
+                "sports",
+                "live"
+              ],
+              "sports": [
+                "soccer",
+                "nba",
+                "mma",
+                "f1"
+              ]
+            },
+            {
+              "name": "Streamed",
+              "url": "disclaimer.html",
+              "description": "Live sports streams and events",
+              "icon": "favicons/media-streaming/live-tv-sports/streamed.png",
+              "platforms": [
+                "web"
+              ],
+              "languages": [
+                "MULTI"
+              ],
+              "contentTypes": [
+                "sports",
+                "live"
+              ],
+              "sports": [
+                "soccer",
+                "nba",
+                "mma",
+                "f1"
+              ],
+              "monitor": "disclaimer.html"
+            },
+            {
+              "name": "CrackStreams",
+              "url": "disclaimer.html",
+              "description": "Free live streams of popular sports",
+              "icon": "favicons/media-streaming/live-tv-sports/crackstreams.png",
+              "platforms": [
+                "web"
+              ],
+              "languages": [
+                "EN"
+              ],
+              "contentTypes": [
+                "sports",
+                "live"
+              ],
+              "sports": [
+                "soccer",
+                "nba",
+                "mma",
+                "f1"
+              ],
+              "telegram": "disclaimer.html"
+            }
+          ]
+        },
+        {
+          "title": "Other",
+          "subcategories": [
+            {
+              "title": "Documentaries",
+              "links": [
+                {
+                  "name": "DocPlus Documentaries",
+                  "url": "disclaimer.html",
+                  "description": "Stream documentaries and educational content",
+                  "icon": "favicons/media-streaming/documentaries/docplus.png",
+                  "platforms": [
+                    "web"
+                  ],
+                  "languages": [
+                    "EN"
+                  ],
+                  "contentTypes": [
+                    "documentaries"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Radio",
+              "links": [
+                {
+                  "name": "RiveStream Radio",
+                  "url": "disclaimer.html",
+                  "description": "Online radio streaming platform",
+                  "icon": "favicons/media-streaming/radio/rivestream.png",
+                  "platforms": [
+                    "web"
+                  ],
+                  "languages": [
+                    "EN"
+                  ],
+                  "contentTypes": [
+                    "radio"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Privacy & Anonymity",
+      "icon": "🕵️",
+      "description": "Tools and extensions for online privacy and anonymity",
+      "subcategories": [
+        {
+          "title": "Privacy Keyboards",
+          "links": [
+            {
+              "name": "FUTO Keyboard",
+              "description": "Privacy-focused keyboard with offline voice input — no data leaves your device",
+              "icon": "favicons/privacy-security/futo-keyboard.png",
+              "platforms": [
+                "android"
+              ],
+              "contentTypes": [
+                "keyboard"
+              ],
+              "pricing": "free",
+              "actions": {
+                "apk": "disclaimer.html",
+                "fdroid": "disclaimer.html"
+              }
+            },
+            {
+              "name": "HeliBoard",
+              "description": "Privacy-conscious open-source keyboard, fork of OpenBoard with modern features",
+              "icon": "favicons/privacy-security/heliboard.png",
+              "url": "disclaimer.html",
+              "platforms": [
+                "android"
+              ],
+              "contentTypes": [
+                "keyboard"
+              ],
+              "pricing": "free",
+              "actions": {
+                "fdroid": "disclaimer.html",
+                "apk": "disclaimer.html"
+              }
+            },
+            {
+              "name": "SayBoard",
+              "description": "Open-source voice-only keyboard using offline speech recognition for private voice typing",
+              "icon": "favicons/privacy-security/sayboard.png",
+              "platforms": [
+                "android"
+              ],
+              "contentTypes": [
+                "keyboard"
+              ],
+              "pricing": "free",
+              "actions": {
+                "github": "disclaimer.html",
+                "fdroid": "disclaimer.html"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Browser Extensions",
+          "links": [
+            {
+              "name": "LibRedirect",
+              "description": "Redirects YouTube, Reddit, Twitter and 80+ services to privacy-friendly frontends",
+              "icon": "favicons/privacy-security/libredirect.png",
+              "url": "disclaimer.html",
+              "contentTypes": [
+                "extension"
+              ],
+              "browsers": {
+                "firefox": "disclaimer.html",
+                "chrome": "disclaimer.html"
+              }
+            },
+            {
+              "name": "Decentraleyes",
+              "description": "Protects against tracking through free, centralized content delivery by serving local copies of common web libraries",
+              "icon": "favicons/privacy-security/decentraleyes.ico",
+              "contentTypes": [
+                "extension"
+              ],
+              "browsers": {
+                "firefox": "disclaimer.html",
+                "chrome": "disclaimer.html"
+              }
+            },
+            {
+              "name": "ClearURLs",
+              "description": "Removes tracking elements from URLs to protect your privacy when browsing the web",
+              "icon": "favicons/privacy-security/clearurls.png",
+              "contentTypes": [
+                "extension"
+              ],
+              "browsers": {
+                "firefox": "disclaimer.html",
+                "github": "disclaimer.html"
+              }
+            },
+            {
+              "name": "Privacy Badger",
+              "description": "Automatically blocks invisible trackers by learning which domains track you across multiple sites without your consent",
+              "icon": "favicons/privacy-security/privacy-badger.png",
+              "contentTypes": [
+                "extension"
+              ],
+              "browsers": {
+                "firefox": "disclaimer.html",
+                "chrome": "disclaimer.html"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Search Engines",
+          "links": [
+            {
+              "name": "Brave Search",
+              "url": "disclaimer.html",
+              "description": "Independent, privacy-first search engine with its own web index",
+              "icon": "favicons/privacy-security/brave-search.png",
+              "platforms": [
+                "web"
+              ],
+              "languages": [
+                "MULTI"
+              ],
+              "contentTypes": [
+                "search-engine"
+              ],
+              "pricing": "free",
+              "actions": {
+                "default-search": "disclaimer.html"
+              }
+            },
+            {
+              "name": "SearXNG",
+              "url": "disclaimer.html",
+              "description": "Self-hostable privacy-respecting metasearch engine aggregating results from 70+ sources",
+              "icon": "favicons/privacy-security/searxng.png",
+              "platforms": [
+                "web",
+                "self-hosted"
+              ],
+              "languages": [
+                "MULTI"
+              ],
+              "contentTypes": [
+                "search-engine"
+              ],
+              "pricing": "free",
+              "instanceList": "disclaimer.html",
+              "actions": {
+                "docker": "disclaimer.html"
+              }
+            },
+            {
+              "name": "Mojeek",
+              "url": "disclaimer.html",
+              "description": "Independent search engine with its own crawler and index, no tracking or personalized results",
+              "icon": "favicons/privacy-security/mojeek.png",
+              "platforms": [
+                "web"
+              ],
+              "languages": [
+                "EN"
+              ],
+              "contentTypes": [
+                "search-engine"
+              ],
+              "pricing": "free",
+              "actions": {
+                "default-search": "disclaimer.html"
+              }
+            },
+            {
+              "name": "Whoogle",
+              "url": "disclaimer.html",
+              "description": "Self-hostable private search proxy that strips tracking, ads, and AMP links",
+              "icon": "favicons/privacy-security/whoogle.png",
+              "platforms": [
+                "web",
+                "self-hosted"
+              ],
+              "languages": [
+                "MULTI"
+              ],
+              "contentTypes": [
+                "search-engine"
+              ],
+              "pricing": "free",
+              "instanceList": "disclaimer.html",
+              "actions": {
+                "docker": "disclaimer.html"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Guides",
+          "links": [
+            {
+              "name": "The Hitchhiker's Guide",
+              "url": "disclaimer.html",
+              "description": "Comprehensive guide to online anonymity and privacy by Anonymous Planet",
+              "icon": "favicons/education-learning/anonymousplanet.png",
+              "platforms": [
+                "web"
+              ],
+              "languages": [
+                "EN"
+              ],
+              "contentTypes": [
+                "guide"
+              ],
+              "pricing": "free",
+              "monitor": "disclaimer.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Gaming",
+      "icon": "🎮",
+      "description": "PC games, repacks, browser games, deals, trainers, and gaming communities",
+      "toolFilterGroups": [
+        {
+          "label": "Delivery",
+          "pills": [
+            "pre-installed",
+            "torrent",
+            "direct-download",
+            "repack"
+          ]
+        },
+        {
+          "label": "Type",
+          "pills": [
+            "online",
+            "emulators",
+            "classic",
+            "trainer",
+            "info",
+            "adult"
+          ]
+        }
+      ],
+      "subcategories": [
+        {
+          "title": "PC Games & Repacks",
+          "fullWidth": true,
+          "subcategories": [
+            {
+              "title": "English",
+              "links": [
+                {
+                  "name": "AnkerGames",
+                  "url": "disclaimer.html",
+                  "description": "Free, pre-installed and portable PC game library",
+                  "icon": "favicons/gaming/ankergames.png",
+                  "platforms": [
+                    "download"
+                  ],
+                  "languages": [
+                    "EN"
+                  ],
+                  "pricing": "free",
+                  "tools": [
+                    "pre-installed",
+                    "torrent",
+                    "direct-download"
+                  ]
+                },
+                {
+                  "name": "SteamRIP",
+                  "url": "disclaimer.html",
+                  "description": "Pre-installed PC games with direct download",
+                  "icon": "favicons/gaming/steamrip.png",
+                  "platforms": [
+                    "download"
+                  ],
+                  "languages": [
+                    "EN"
+                  ],
+                  "tools": [
+                    "pre-installed",
+                    "torrent",
+                    "direct-download"
+                  ]
+                },
+                {
+                  "name": "CPG Repacks",
+                  "url": "disclaimer.html",
+                  "description": "Pre-installed PC Adult games with direct download links",
+                  "icon": "favicons/gaming/cpgrepacks.png",
+                  "platforms": [
+                    "download"
+                  ],
+                  "languages": [
+                    "EN"
+                  ],
+                  "tools": [
+                    "adult"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Russian",
+              "links": [
+                {
+                  "name": "TorrentMass",
+                  "url": "disclaimer.html",
+                  "description": "Russian torrent tracker for free PC game downloads, repacks from Механики/Xatab",
+                  "icon": "favicons/gaming/torrent-mass.png",
+                  "platforms": [
+                    "download"
+                  ],
+                  "languages": [
+                    "RU"
+                  ],
+                  "tools": [
+                    "torrent",
+                    "repack"
+                  ]
+                },
+                {
+                  "name": "Byxatab",
+                  "url": "disclaimer.html",
+                  "description": "Russian torrent site specializing in xatab/Механики/Decepticon PC game repacks",
+                  "icon": "favicons/gaming/byxatab.ico",
+                  "platforms": [
+                    "download"
+                  ],
+                  "languages": [
+                    "RU"
+                  ],
+                  "tools": [
+                    "torrent",
+                    "repack"
+                  ]
+                },
+                {
+                  "name": "FitGirl Repacks",
+                  "url": "disclaimer.html",
+                  "description": "Highly compressed repacks of PC games",
+                  "icon": "favicons/gaming/fitgirl-repacks.png",
+                  "platforms": [
+                    "download"
+                  ],
+                  "languages": [
+                    "RU"
+                  ],
+                  "tools": [
+                    "repack",
+                    "torrent",
+                    "direct-download"
+                  ]
+                },
+                {
+                  "name": "R.G. Механики",
+                  "url": "disclaimer.html",
+                  "description": "Torrent repacks from R.G. Механики team with PC games",
+                  "icon": "favicons/gaming/repack-games.png",
+                  "platforms": [
+                    "download"
+                  ],
+                  "languages": [
+                    "RU"
+                  ],
+                  "tools": [
+                    "torrent",
+                    "repack"
+                  ]
+                },
+                {
+                  "name": "Online-Fix",
+                  "url": "disclaimer.html",
+                  "description": "PC games with custom fixes for online multiplayer",
+                  "icon": "favicons/gaming/online-fix.png",
+                  "platforms": [
+                    "download"
+                  ],
+                  "languages": [
+                    "RU"
+                  ],
+                  "tools": [
+                    "online",
+                    "torrent"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Tools",
+          "links": [
+            {
+              "name": "WeMod",
+              "url": "disclaimer.html",
+              "description": "Desktop app with cheats, trainers, and mods for PC games",
+              "icon": "favicons/gaming/wemod.png",
+              "platforms": [
+                "desktop",
+                "download"
+              ],
+              "languages": [
+                "EN"
+              ],
+              "tools": [
+                "trainer"
+              ]
+            },
+            {
+              "name": "Fling Trainer",
+              "url": "disclaimer.html",
+              "description": "DB of Windows game trainers with cheats for single-player games",
+              "icon": "favicons/gaming/flingtrainer.png",
+              "platforms": [
+                "web",
+                "download"
+              ],
+              "languages": [
+                "EN"
+              ],
+              "tools": [
+                "trainer"
+              ]
+            },
+            {
+              "name": "Steam Achievement Manager",
+              "description": "Open-source tool to unlock and manage Steam game achievements",
+              "icon": "favicons/gaming/steam-achievement-manager.png",
+              "platforms": [
+                "download"
+              ],
+              "languages": [
+                "EN"
+              ]
+            },
+            {
+              "name": "Cheat Engine",
+              "url": "disclaimer.html",
+              "description": "Open-source memory scanner and debugger for modifying game memory values",
+              "icon": "favicons/gaming/cheatengine.png",
+              "platforms": [
+                "desktop",
+                "download"
+              ],
+              "languages": [
+                "EN"
+              ]
+            },
+            {
+              "name": "predb.net",
+              "url": "disclaimer.html",
+              "description": "Scene release database listing warez releases, metadata, and NFOs",
+              "icon": "favicons/gaming/predb.png",
+              "platforms": [
+                "web"
+              ],
+              "languages": [
+                "EN"
+              ],
+              "tools": [
+                "info"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Deals & Databases",
+          "links": [
+            {
+              "name": "SteamDB",
+              "url": "disclaimer.html",
+              "description": "Steam discount database with filters",
+              "icon": "favicons/gaming/steamdb.png",
+              "platforms": [
+                "web"
+              ],
+              "languages": [
+                "EN"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Communities",
+          "links": [
+            {
+              "name": "r/CrackWatch",
+              "url": "disclaimer.html",
+              "description": "Subreddit tracking video game cracks, DRM status, and news",
+              "icon": "favicons/gaming/reddit.png",
+              "platforms": [
+                "web"
+              ],
+              "languages": [
+                "EN"
+              ],
+              "tools": [
+                "torrent"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Online and Browser Games",
+          "links": [
+            {
+              "name": "Poker Now",
+              "url": "disclaimer.html",
+              "description": "Online poker with friends, quick and easy",
+              "icon": "favicons/gaming/pokernow.png",
+              "platforms": [
+                "web"
+              ],
+              "languages": [
+                "EN"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Classic and Retro Games",
+          "links": [
+            {
+              "name": "Emuparadise",
+              "url": "disclaimer.html",
+              "description": "ROMs, ISOs, and emulators for classic games",
+              "icon": "favicons/gaming/emuparadise.png",
+              "platforms": [
+                "web",
+                "download"
+              ],
+              "languages": [
+                "EN"
+              ],
+              "tools": [
+                "emulators",
+                "classic",
+                "direct-download"
+              ],
+              "consoleList": "disclaimer.html",
+              "emulatorList": "disclaimer.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Software",
+      "icon": "💻",
+      "description": "Software downloads, templates, and video editing resources",
+      "subcategories": [
+        {
+          "title": "Templates & Resources",
+          "links": [
+            {
+              "name": "AEdownload.com",
+              "url": "disclaimer.html",
+              "description": "After Effects, Premiere Pro templates, video editing resources",
+              "icon": "favicons/software/aedownload.svg",
+              "platforms": [
+                "web",
+                "download"
+              ],
+              "languages": [
+                "EN"
+              ],
+              "contentTypes": [
+                "video-tools",
+                "templates"
+              ],
+              "safetyCheck": {
+                "url": "disclaimer.html",
+                "icon": "favicons/software/gridinsoft.png"
+              }
+            },
+            {
+              "name": "VSTDD.com",
+              "url": "disclaimer.html",
+              "description": "Source of audio software and tools, VST plugins, Loops & More!",
+              "icon": "favicons/software/vstdd.png",
+              "platforms": [
+                "web",
+                "download"
+              ],
+              "languages": [
+                "EN"
+              ],
+              "contentTypes": [
+                "music-tools"
+              ],
+              "safetyCheck": {
+                "url": "disclaimer.html",
+                "icon": "favicons/software/gridinsoft.png"
+              }
+            },
+            {
+              "name": "Diakov.net",
+              "url": "disclaimer.html",
+              "description": "Russian software catalog — RePacks and downloads",
+              "icon": "favicons/software/diakov.ico",
+              "platforms": [
+                "web",
+                "download"
+              ],
+              "languages": [
+                "RU"
+              ],
+              "contentTypes": [
+                "software"
+              ],
+              "safetyCheck": {
+                "url": "disclaimer.html",
+                "icon": "favicons/software/gridinsoft.png"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Music",
+      "icon": "🎵",
+      "description": "Music downloaders, streaming, and copyright-free music for creators",
+      "toolFilterPills": [
+        "youtube"
+      ],
+      "subcategories": [
+        {
+          "title": "Downloaders & Streaming",
+          "links": [
+            {
+              "name": "Cobalt",
+              "url": "disclaimer.html",
+              "description": "Save media from websites and social media: video, audio (no YouTube)",
+              "icon": "favicons/music/cobalt.png",
+              "platforms": [
+                "web"
+              ],
+              "languages": [
+                "EN"
+              ],
+              "contentTypes": [
+                "music-tools"
+              ],
+              "pricing": "free"
+            },
+            {
+              "name": "DoubleDouble",
+              "url": "disclaimer.html",
+              "description": "Spotify, Apple Music, Amazon Music, Soundcloud and others downloader",
+              "icon": "favicons/music/doubledouble.png",
+              "platforms": [
+                "web"
+              ],
+              "languages": [
+                "EN"
+              ],
+              "contentTypes": [
+                "music-tools"
+              ],
+              "pricing": "free",
+              "monitor": "disclaimer.html",
+              "discord": "disclaimer.html"
+            },
+            {
+              "name": "NCS",
+              "url": "disclaimer.html",
+              "description": "Web listening and download. Copyright free music for creators.",
+              "icon": "favicons/music/ncs.png",
+              "platforms": [
+                "web",
+                "download"
+              ],
+              "languages": [
+                "EN"
+              ],
+              "contentTypes": [
+                "music-tools"
+              ],
+              "pricing": "free"
+            },
+            {
+              "name": "Stacher",
+              "url": "disclaimer.html",
+              "description": "An easy, cross-platform yt-dlp GUI. YouTube downloader tool for desktop.",
+              "icon": "favicons/music/stacher.png",
+              "platforms": [
+                "desktop",
+                "download"
+              ],
+              "languages": [
+                "EN"
+              ],
+              "contentTypes": [
+                "music-tools"
+              ],
+              "pricing": "free",
+              "tools": [
+                "youtube"
+              ]
+            },
+            {
+              "name": "YTMP3",
+              "url": "disclaimer.html",
+              "description": "Web tool to download YouTube video and audio.",
+              "icon": "favicons/music/ytmp3.png",
+              "platforms": [
+                "web"
+              ],
+              "languages": [
+                "EN"
+              ],
+              "contentTypes": [
+                "music-tools"
+              ],
+              "pricing": "free",
+              "tools": [
+                "youtube"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Torrents & Trackers",
+      "icon": "🏴‍☠️",
+      "description": "Torrent trackers and downloads organized by content type",
+      "subcategories": [
+        {
+          "title": "General Trackers",
+          "links": [
+            {
+              "name": "Kinozal",
+              "url": "disclaimer.html",
+              "description": "Russian torrent tracker",
+              "icon": "favicons/torrents/kinozal.png"
+            },
+            {
+              "name": "Rutracker",
+              "url": "disclaimer.html",
+              "description": "Large Russian torrent community",
+              "icon": "favicons/torrents/rutracker.png"
+            }
+          ]
+        },
+        {
+          "title": "Games",
+          "links": [
+            {
+              "name": "Xatab Repacks",
+              "url": "disclaimer.html",
+              "description": "Game repacks by Xatab team",
+              "icon": "favicons/torrents/xatab.png"
+            },
+            {
+              "name": "VRTor",
+              "url": "disclaimer.html",
+              "description": "VR games torrent tracker",
+              "icon": "favicons/torrents/vrtor.png"
+            }
+          ]
+        },
+        {
+          "title": "Cartoons & Animation",
+          "links": [
+            {
+              "name": "Oldtoons",
+              "url": "disclaimer.html",
+              "description": "Classic cartoon torrent archive",
+              "icon": "favicons/torrents/oldtoons.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "AI & Machine Learning",
+      "icon": "🤖",
+      "description": "AI models, image editing, chatbots, and leaderboards",
+      "subcategories": [
+        {
+          "title": "Model Libraries",
+          "links": [
+            {
+              "name": "Ollama Library",
+              "url": "disclaimer.html",
+              "description": "Local AI models library",
+              "icon": "favicons/ai-ml/ollama.png"
+            }
+          ]
+        },
+        {
+          "title": "Leaderboards & Benchmarks",
+          "links": [
+            {
+              "name": "LMSYS Arena",
+              "url": "disclaimer.html",
+              "description": "Chatbot arena leaderboard",
+              "icon": "favicons/ai-ml/lmarena.png"
+            },
+            {
+              "name": "LLM Leaderboard",
+              "url": "disclaimer.html",
+              "description": "LLM rubric evaluation rankings",
+              "icon": "favicons/ai-ml/notion.png"
+            }
+          ]
+        },
+        {
+          "title": "Communities",
+          "links": [
+            {
+              "name": "LocalLlama",
+              "url": "disclaimer.html",
+              "description": "Local AI Reddit community",
+              "icon": "favicons/ai-ml/reddit-localllama.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Developer Tools",
+      "icon": "💻",
+      "description": "APIs, mock data generators, and code resources",
+      "subcategories": [
+        {
+          "title": "Data Generators",
+          "links": [
+            {
+              "name": "Mockaroo",
+              "url": "disclaimer.html",
+              "description": "Random JSON/CSV/SQL data generator for testing",
+              "icon": "favicons/developer-tools/mockaroo.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Crypto & Finance",
+      "icon": "💰",
+      "description": "Cryptocurrency services and financial data APIs",
+      "subcategories": [
+        {
+          "title": "Cryptocurrency Services",
+          "links": [
+            {
+              "name": "CoinCards",
+              "url": "disclaimer.html",
+              "description": "Buy gift cards using cryptocurrency",
+              "icon": "favicons/crypto-finance/coincards.png"
+            }
+          ]
+        },
+        {
+          "title": "Financial Data & APIs",
+          "links": [
+            {
+              "name": "Mboum",
+              "url": "disclaimer.html",
+              "description": "Stock market and financial data API service",
+              "icon": "favicons/crypto-finance/mboum.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "File & Media Tools",
+      "icon": "🔧",
+      "description": "File sharing, image upscaling, and media converters",
+      "subcategories": [
+        {
+          "title": "Image Tools",
+          "links": [
+            {
+              "name": "ImgUpscaler",
+              "url": "disclaimer.html",
+              "description": "AI-powered image enhancement",
+              "icon": "favicons/file-media-tools/imgupscaler.png"
+            },
+            {
+              "name": "DeepAI Image Editor",
+              "url": "disclaimer.html",
+              "description": "AI-powered photo editing tool",
+              "icon": "favicons/file-media-tools/deepai.png"
+            }
+          ]
+        },
+        {
+          "title": "File Sharing",
+          "links": [
+            {
+              "name": "Disroot Lufi",
+              "url": "disclaimer.html",
+              "description": "Encrypted file sharing platform",
+              "icon": "favicons/file-media-tools/disroot.png"
+            },
+            {
+              "name": "Pixeldrain",
+              "url": "disclaimer.html",
+              "description": "Fast file sharing platform",
+              "icon": "favicons/file-media-tools/pixeldrain.png"
+            }
+          ]
+        },
+        {
+          "title": "Media Processing",
+          "links": [
+            {
+              "name": "Webtor",
+              "url": "disclaimer.html",
+              "description": "Online torrent processor",
+              "icon": "favicons/file-media-tools/webtor.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Creative & Design",
+      "icon": "🎨",
+      "description": "Emoji tools, ASCII art, and creative resources",
+      "subcategories": [
+        {
+          "title": "Emoji & ASCII Art",
+          "links": [
+            {
+              "name": "Emoji Combos",
+              "url": "disclaimer.html",
+              "description": "Database of emoji combinations and ASCII art",
+              "icon": "favicons/creative-design/emojicombos.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Communities & Directories",
+      "icon": "🌐",
+      "description": "Resource hubs, communities, and meta-directories",
+      "subcategories": [
+        {
+          "title": "Resource Directories",
+          "links": [
+            {
+              "name": "YarrList",
+              "url": "disclaimer.html",
+              "description": "Directory of online media resources",
+              "icon": "favicons/communities/yarrlist.png"
+            },
+            {
+              "name": "Deep Web Nest",
+              "url": "disclaimer.html",
+              "description": "Gateway directory for entertainment and tools",
+              "icon": "favicons/communities/deepwebnest.png"
+            }
+          ]
+        },
+        {
+          "title": "Community Forums",
+          "links": [
+            {
+              "name": "r/OpenSignups",
+              "url": "disclaimer.html",
+              "description": "Reddit community for private tracker signups",
+              "icon": "favicons/communities/reddit-opensignups.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Privacy & Security",
+      "icon": "🔒",
+      "description": "Privacy tools, phone verification, and secure services",
+      "subcategories": [
+        {
+          "title": "Verification Services",
+          "links": [
+            {
+              "name": "MoneroSMS",
+              "url": "disclaimer.html",
+              "description": "Phone number verification service",
+              "icon": "favicons/privacy-security/monerosms.svg"
+            }
+          ]
+        },
+        {
+          "title": "Communication Privacy",
+          "links": [
+            {
+              "name": "Kill the Newsletter",
+              "url": "disclaimer.html",
+              "description": "Convert email newsletters to RSS feeds",
+              "icon": "favicons/privacy-security/kill-the-newsletter.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Health & Fitness",
+      "icon": "💪",
+      "description": "Exercise guides and fitness resources",
+      "subcategories": [
+        {
+          "title": "Exercise Guides",
+          "links": [
+            {
+              "name": "MuscleWiki",
+              "url": "disclaimer.html",
+              "description": "Interactive exercise library and guide",
+              "icon": "favicons/health-fitness/musclewiki.png"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
