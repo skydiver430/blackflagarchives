@@ -1,41 +1,303 @@
 {
   "platforms": [
-    { "id": "web", "label": "Web", "icon": "🌐" },
-    { "id": "download", "label": "Download", "icon": "📥" },
-    { "id": "desktop", "label": "Desktop", "icon": "💻" },
-    { "id": "mobile", "label": "Mobile", "icon": "📱" },
-    { "id": "self-hosted", "label": "Self-Hosted", "icon": "🏠" },
+    {
+      "id": "web",
+      "label": "Web",
+      "icon": "icons/globe.png",
+      "iconType": "image"
+    },
+    {
+      "id": "download",
+      "label": "Download",
+      "icon": "icons/inbox-tray.png",
+      "iconType": "image"
+    },
+    {
+      "id": "desktop",
+      "label": "Desktop",
+      "icon": "icons/desktop-computer.png",
+      "iconType": "image"
+    },
+    {
+      "id": "mobile",
+      "label": "Mobile",
+      "icon": "icons/mobile-phone.png",
+      "iconType": "image"
+    },
+    {
+      "id": "self-hosted",
+      "label": "Self-Hosted",
+      "icon": "icons/building-construction.png",
+      "iconType": "image"
+    },
     {
       "id": "android",
       "label": "Android",
       "icon": "favicons/browsers/android.svg",
       "iconType": "image"
+    },
+    {
+      "id": "windows",
+      "label": "Windows",
+      "icon": "favicons/browsers/windows.svg",
+      "iconType": "image"
+    },
+    {
+      "id": "macos",
+      "label": "Mac OS",
+      "icon": "favicons/browsers/macos.svg",
+      "iconType": "image"
     }
   ],
   "contentTypes": [
-    { "id": "movies", "label": "Movies", "icon": "🎬", "showInFilter": true, "order": 1 },
-    { "id": "tv-shows", "label": "TV Shows", "icon": "📺", "showInFilter": true, "order": 2 },
-    { "id": "anime", "label": "Anime", "icon": "🌸", "showInFilter": true, "order": 3 },
-    { "id": "animated", "label": "Animated", "icon": "🎨", "showInFilter": true, "order": 4 },
-    { "id": "documentaries", "label": "Documentaries", "icon": "📖", "showInFilter": true, "order": 5 },
-    { "id": "sports", "label": "Sports", "icon": "⚽", "showInFilter": true, "order": 6 },
-    { "id": "live", "label": "Live", "icon": "🔴", "showInFilter": true, "order": 7 },
-    { "id": "tv-channels", "label": "TV", "icon": "📡", "showInFilter": true, "order": 8 },
-    { "id": "radio", "label": "Radio", "icon": "📻", "showInFilter": true, "order": 9 },
-    { "id": "books", "label": "Books", "icon": "📚", "showInFilter": false, "order": 10 },
-    { "id": "audiobooks", "label": "Audiobooks", "icon": "🎧", "showInFilter": false, "order": 11 },
-    { "id": "articles", "label": "Articles", "icon": "📄", "showInFilter": false, "order": 12 },
-    { "id": "manga", "label": "Manga", "icon": "🖼️", "showInFilter": false, "order": 13 },
-    { "id": "course", "label": "Courses", "icon": "📖", "showInFilter": false, "order": 14 },
-    { "id": "interactive", "label": "Interactive", "icon": "🎮", "showInFilter": false, "order": 15 },
-    { "id": "guide", "label": "Guides", "icon": "📝", "showInFilter": false, "order": 16 },
-    { "id": "extension", "label": "Extensions", "icon": "🧩", "showInFilter": false, "order": 17 },
-    { "id": "search-engine", "label": "Search Engines", "icon": "🔍", "showInFilter": false, "order": 18 },
-    { "id": "keyboard", "label": "Keyboards", "icon": "⌨️", "showInFilter": false, "order": 19 },
-    { "id": "templates", "label": "Templates", "icon": "📦", "showInFilter": false, "order": 20 },
-    { "id": "video-tools", "label": "Video Tools", "icon": "🎬", "showInFilter": true, "order": 21 },
-    { "id": "music-tools", "label": "Music Tools", "icon": "🎵", "showInFilter": true, "order": 22 },
-    { "id": "software", "label": "Software", "icon": "💻", "showInFilter": true, "order": 23 }
+    {
+      "id": "movies",
+      "label": "Movies",
+      "icon": "icons/movie-camera.png",
+      "showInFilter": true,
+      "order": 1,
+      "iconType": "image"
+    },
+    {
+      "id": "tv-shows",
+      "label": "TV Shows",
+      "icon": "icons/television.png",
+      "showInFilter": true,
+      "order": 2,
+      "iconType": "image"
+    },
+    {
+      "id": "anime",
+      "label": "Anime",
+      "icon": "icons/cherry-blossom.png",
+      "showInFilter": true,
+      "order": 3,
+      "iconType": "image"
+    },
+    {
+      "id": "animated",
+      "label": "Animated",
+      "icon": "icons/sparkles.png",
+      "showInFilter": true,
+      "order": 4,
+      "iconType": "image"
+    },
+    {
+      "id": "documentaries",
+      "label": "Documentaries",
+      "icon": "icons/film-frames.png",
+      "showInFilter": true,
+      "order": 5,
+      "iconType": "image"
+    },
+    {
+      "id": "sports",
+      "label": "Sports",
+      "icon": "icons/trophy.png",
+      "showInFilter": true,
+      "order": 6,
+      "iconType": "image"
+    },
+    {
+      "id": "live",
+      "label": "Live",
+      "icon": "icons/red-circle.png",
+      "showInFilter": true,
+      "order": 7,
+      "iconType": "image"
+    },
+    {
+      "id": "tv-channels",
+      "label": "TV",
+      "icon": "icons/satellite-dish.png",
+      "showInFilter": true,
+      "order": 8,
+      "iconType": "image"
+    },
+    {
+      "id": "radio",
+      "label": "Radio",
+      "icon": "icons/radio.png",
+      "showInFilter": true,
+      "order": 9,
+      "iconType": "image"
+    },
+    {
+      "id": "books",
+      "label": "Books",
+      "icon": "icons/open-book.png",
+      "showInFilter": true,
+      "order": 10,
+      "iconType": "image"
+    },
+    {
+      "id": "audiobooks",
+      "label": "Audiobooks",
+      "icon": "icons/headphones.png",
+      "showInFilter": true,
+      "order": 11,
+      "iconType": "image"
+    },
+    {
+      "id": "articles",
+      "label": "Articles",
+      "icon": "icons/newspaper.png",
+      "showInFilter": true,
+      "order": 12,
+      "iconType": "image"
+    },
+    {
+      "id": "manga",
+      "label": "Manga",
+      "icon": "icons/speech-balloon.png",
+      "showInFilter": true,
+      "order": 13,
+      "iconType": "image"
+    },
+    {
+      "id": "course",
+      "label": "Courses",
+      "icon": "icons/memo.png",
+      "showInFilter": true,
+      "order": 14,
+      "iconType": "image"
+    },
+    {
+      "id": "interactive",
+      "label": "Interactive",
+      "icon": "icons/computer-mouse.png",
+      "showInFilter": true,
+      "order": 15,
+      "iconType": "image"
+    },
+    {
+      "id": "guide",
+      "label": "Guides",
+      "icon": "icons/compass.png",
+      "showInFilter": true,
+      "order": 16,
+      "iconType": "image"
+    },
+    {
+      "id": "extension",
+      "label": "Extensions",
+      "icon": "icons/puzzle-piece.png",
+      "showInFilter": true,
+      "order": 17,
+      "iconType": "image"
+    },
+    {
+      "id": "search-engine",
+      "label": "Search Engines",
+      "icon": "icons/magnifying-glass.png",
+      "showInFilter": true,
+      "order": 18,
+      "iconType": "image"
+    },
+    {
+      "id": "keyboard",
+      "label": "Keyboards",
+      "icon": "icons/keyboard.png",
+      "showInFilter": true,
+      "order": 19,
+      "iconType": "image"
+    },
+    {
+      "id": "templates",
+      "label": "Templates",
+      "icon": "icons/triangular-ruler.png",
+      "showInFilter": true,
+      "order": 20,
+      "iconType": "image"
+    },
+    {
+      "id": "video-tools",
+      "label": "Video Tools",
+      "icon": "icons/video-camera.png",
+      "showInFilter": true,
+      "order": 21,
+      "iconType": "image"
+    },
+    {
+      "id": "music-tools",
+      "label": "Music Tools",
+      "icon": "icons/control-knobs.png",
+      "showInFilter": true,
+      "order": 22,
+      "iconType": "image"
+    },
+    {
+      "id": "software",
+      "label": "Software",
+      "icon": "icons/optical-disc.png",
+      "showInFilter": true,
+      "order": 23,
+      "iconType": "image"
+    },
+    {
+      "id": "videogames",
+      "label": "Videogames",
+      "icon": "icons/joystick.png",
+      "showInFilter": true,
+      "order": 24,
+      "iconType": "image"
+    },
+    {
+      "id": "music",
+      "label": "Music",
+      "icon": "icons/musical-notes.png",
+      "showInFilter": true,
+      "order": 25,
+      "iconType": "image"
+    },
+    {
+      "id": "chatbot",
+      "label": "Chatbots",
+      "icon": "icons/robot.png",
+      "showInFilter": true,
+      "order": 26,
+      "iconType": "image"
+    },
+    {
+      "id": "local-ai",
+      "label": "AI",
+      "icon": "icons/house.png",
+      "showInFilter": true,
+      "order": 27,
+      "iconType": "image"
+    },
+    {
+      "id": "image-generation",
+      "label": "Image Generation",
+      "icon": "icons/artist-palette.png",
+      "showInFilter": true,
+      "order": 28,
+      "iconType": "image"
+    },
+    {
+      "id": "model-library",
+      "label": "Model Libraries",
+      "icon": "icons/books-stack.png",
+      "showInFilter": true,
+      "order": 29,
+      "iconType": "image"
+    },
+    {
+      "id": "leaderboard",
+      "label": "Leaderboards",
+      "icon": "icons/trophy.png",
+      "showInFilter": true,
+      "order": 30,
+      "iconType": "image"
+    },
+    {
+      "id": "tools",
+      "label": "Tools",
+      "icon": "icons/laptop.png",
+      "showInFilter": true,
+      "order": 31,
+      "iconType": "image"
+    }
   ],
   "tools": [
     {
@@ -44,25 +306,118 @@
       "icon": "favicons/music/youtube.png",
       "iconType": "image"
     },
-    { "id": "pre-installed", "label": "Pre-installed", "icon": "📦" },
+    {
+      "id": "pre-installed",
+      "label": "Pre-installed",
+      "icon": "icons/package.png",
+      "iconType": "image"
+    },
     {
       "id": "torrent",
       "label": "Torrent",
       "icon": "favicons/gaming/qbittorrent.png",
       "iconType": "image"
     },
-    { "id": "direct-download", "label": "Direct Download", "icon": "⬇️" },
-    { "id": "repack", "label": "RePack", "icon": "📦" },
-    { "id": "online", "label": "Online", "icon": "🌐" },
-    { "id": "emulators", "label": "Emulators", "icon": "🎮" },
-    { "id": "classic", "label": "Classic", "icon": "🕹️" },
-    { "id": "trainer", "label": "Trainer", "icon": "🎯" },
-    { "id": "info", "label": "Info", "icon": "ℹ️" },
-    { "id": "adult", "label": "18+", "icon": "🔞" },
+    {
+      "id": "direct-download",
+      "label": "Direct Download",
+      "icon": "icons/down-arrow.png",
+      "iconType": "image"
+    },
+    {
+      "id": "repack",
+      "label": "RePack",
+      "icon": "icons/clamp.png",
+      "iconType": "image"
+    },
+    {
+      "id": "online",
+      "label": "Online",
+      "icon": "icons/globe-europe.png",
+      "iconType": "image"
+    },
+    {
+      "id": "emulators",
+      "label": "Emulators",
+      "icon": "icons/alien-monster.png",
+      "iconType": "image"
+    },
+    {
+      "id": "classic",
+      "label": "Classic",
+      "icon": "icons/classical-building.png",
+      "iconType": "image"
+    },
+    {
+      "id": "trainer",
+      "label": "Trainer",
+      "icon": "icons/direct-hit.png",
+      "iconType": "image"
+    },
+    {
+      "id": "info",
+      "label": "Info",
+      "icon": "icons/information.png",
+      "iconType": "image"
+    },
+    {
+      "id": "adult",
+      "label": "18+",
+      "icon": "icons/no-under-18.png",
+      "iconType": "image"
+    },
     {
       "id": "vr",
       "label": "VR",
-      "icon": "favicons/gaming/vr-badge.png",
+      "icon": "🥽",
+      "iconType": "emoji"
+    },
+    {
+      "id": "editor",
+      "label": "Code Editor",
+      "icon": "icons/laptop.png",
+      "iconType": "image"
+    },
+    {
+      "id": "mock-data",
+      "label": "Mock Data",
+      "icon": "icons/clipboard.png",
+      "iconType": "image"
+    },
+    {
+      "id": "crypto-payments",
+      "label": "Crypto Payments",
+      "icon": "icons/money-bag.png",
+      "iconType": "image"
+    },
+    {
+      "id": "market-data",
+      "label": "Market Data",
+      "icon": "icons/newspaper.png",
+      "iconType": "image"
+    },
+    {
+      "id": "file-sharing",
+      "label": "File Sharing",
+      "icon": "icons/inbox-tray.png",
+      "iconType": "image"
+    },
+    {
+      "id": "catalog",
+      "label": "Catalog",
+      "icon": "icons/books-stack.png",
+      "iconType": "image"
+    },
+    {
+      "id": "local-ai",
+      "label": "AI",
+      "icon": "icons/robot.png",
+      "iconType": "image"
+    },
+    {
+      "id": "fitness",
+      "label": "Fitness",
+      "icon": "icons/flexed-biceps.png",
       "iconType": "image"
     }
   ],
@@ -78,24 +433,111 @@
     "trainer",
     "info",
     "adult",
-    "vr"
+    "vr",
+    "editor",
+    "mock-data",
+    "crypto-payments",
+    "market-data",
+    "file-sharing",
+    "catalog",
+    "local-ai",
+    "fitness"
   ],
   "sports": [
-    { "id": "soccer", "label": "Soccer", "icon": "⚽", "order": 1 },
-    { "id": "nba", "label": "NBA", "icon": "🏀", "order": 2 },
-    { "id": "mma", "label": "MMA", "icon": "🥊", "order": 3 },
-    { "id": "f1", "label": "F1", "icon": "🏎️", "order": 4 }
+    {
+      "id": "soccer",
+      "label": "Soccer",
+      "icon": "icons/soccer-ball.png",
+      "order": 1,
+      "iconType": "image"
+    },
+    {
+      "id": "nba",
+      "label": "NBA",
+      "icon": "icons/basketball.png",
+      "order": 2,
+      "iconType": "image"
+    },
+    {
+      "id": "mma",
+      "label": "MMA",
+      "icon": "icons/boxing-glove.png",
+      "order": 3,
+      "iconType": "image"
+    },
+    {
+      "id": "f1",
+      "label": "F1",
+      "icon": "icons/racing-car.png",
+      "order": 4,
+      "iconType": "image"
+    }
   ],
   "topics": [
-    { "id": "typing", "label": "Typing", "icon": "⌨️", "order": 1 },
-    { "id": "linux", "label": "Linux", "icon": "🐧", "order": 2 },
-    { "id": "technology", "label": "Technology", "icon": "💻", "order": 3 },
-    { "id": "privacy", "label": "Privacy", "icon": "🔒", "order": 4 }
+    {
+      "id": "typing",
+      "label": "Typing",
+      "icon": "icons/writing-hand.png",
+      "order": 1,
+      "iconType": "image"
+    },
+    {
+      "id": "linux",
+      "label": "Linux",
+      "icon": "icons/penguin.png",
+      "order": 2,
+      "iconType": "image"
+    },
+    {
+      "id": "technology",
+      "label": "Technology",
+      "icon": "icons/gear.png",
+      "order": 3,
+      "iconType": "image"
+    },
+    {
+      "id": "privacy",
+      "label": "Privacy",
+      "icon": "icons/locked-pen.png",
+      "order": 4,
+      "iconType": "image"
+    },
+    {
+      "id": "education",
+      "label": "Education",
+      "icon": "icons/graduation-cap.png",
+      "order": 5,
+      "iconType": "image"
+    }
   ],
   "blockerTypes": [
-    { "id": "browser-extension", "label": "Browser Extension", "icon": "🌐", "order": 1 },
-    { "id": "self-hosted", "label": "Self-Hosted", "icon": "🏠", "order": 2 },
-    { "id": "dns-service", "label": "DNS Service", "icon": "🛡️", "order": 3 },
-    { "id": "blocklist", "label": "Blocklists", "icon": "📄", "order": 4 }
+    {
+      "id": "browser-extension",
+      "label": "Browser Extension",
+      "icon": "icons/electric-plug.png",
+      "order": 1,
+      "iconType": "image"
+    },
+    {
+      "id": "self-hosted",
+      "label": "Self-Hosted",
+      "icon": "icons/building-construction.png",
+      "order": 2,
+      "iconType": "image"
+    },
+    {
+      "id": "dns-service",
+      "label": "DNS Service",
+      "icon": "icons/satellite.png",
+      "order": 3,
+      "iconType": "image"
+    },
+    {
+      "id": "blocklist",
+      "label": "Blocklists",
+      "icon": "icons/clipboard.png",
+      "order": 4,
+      "iconType": "image"
+    }
   ]
 }
