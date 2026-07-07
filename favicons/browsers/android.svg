@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="#3DDC84">
+  <!-- Antennae -->
+  <rect x="14.5" y="3" width="2" height="8" rx="1" transform="rotate(-30 15.5 7)"/>
+  <rect x="31.5" y="3" width="2" height="8" rx="1" transform="rotate(30 32.5 7)"/>
+  <!-- Head -->
+  <path d="M10 20a14 14 0 0 1 28 0z"/>
+  <!-- Eyes -->
+  <circle cx="18" cy="15.5" r="1.8" fill="#fff"/>
+  <circle cx="30" cy="15.5" r="1.8" fill="#fff"/>
+  <!-- Body -->
+  <rect x="10" y="22" width="28" height="16" rx="2.5"/>
+  <!-- Arms -->
+  <rect x="3" y="23" width="5" height="14" rx="2.5"/>
+  <rect x="40" y="23" width="5" height="14" rx="2.5"/>
+  <!-- Legs -->
+  <rect x="16" y="39" width="5" height="9" rx="2.5"/>
+  <rect x="27" y="39" width="5" height="9" rx="2.5"/>
+</svg>

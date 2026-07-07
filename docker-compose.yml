@@ -1,0 +1,16 @@
+services:
+  web:
+    image: nginx:alpine
+    container_name: bfa-dev
+    ports:
+      - "8080:80"
+    volumes:
+      - ../dist:/usr/share/nginx/html:ro
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+    restart: unless-stopped
+    networks:
+      - cloudflare_default
+
+networks:
+  cloudflare_default:
+    external: true
