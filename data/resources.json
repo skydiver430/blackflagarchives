@@ -1357,6 +1357,23 @@
               "pricing": "free"
             },
             {
+              "name": "Arcade Space",
+              "url": "disclaimer.html",
+              "description": "Catalogs and streams classic retro games via browser emulation",
+              "icon": "favicons/gaming/arcade-space.png",
+              "platforms": [
+                "web"
+              ],
+              "languages": [
+                "EN"
+              ],
+              "contentTypes": [
+                "videogames",
+                "catalog"
+              ],
+              "pricing": "freemium"
+            },
+            {
               "name": "Emuparadise",
               "url": "disclaimer.html",
               "description": "ROMs, ISOs, and emulators for classic games",
