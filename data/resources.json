@@ -1479,7 +1479,8 @@
                     "movies",
                     "tv-shows",
                     "animated"
-                  ]
+                  ],
+                  "instanceList": "disclaimer.html"
                 },
                 {
                   "name": "Cinegram",
