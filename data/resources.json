@@ -932,6 +932,23 @@
               "title": "Russian",
               "links": [
                 {
+                  "name": "Dbtorrent.games",
+                  "url": "disclaimer.html",
+                  "description": "Offers Russian-language PC game torrents with daily updates",
+                  "icon": "favicons/gaming/dbtorrent-games.png",
+                  "platforms": [
+                    "web"
+                  ],
+                  "languages": [
+                    "RU"
+                  ],
+                  "tools": [
+                    "torrent"
+                  ],
+                  "pricing": "free",
+                  "vpnRequired": true
+                },
+                {
                   "name": "TorrentMass",
                   "url": "disclaimer.html",
                   "description": "Russian torrent tracker for free PC game downloads, repacks from Механики/Xatab",
@@ -3208,6 +3225,31 @@
                 "docker": "disclaimer.html",
                 "github": "disclaimer.html"
               }
+            },
+            {
+              "name": "Community Scripts",
+              "url": "disclaimer.html",
+              "description": "Browses Proxmox helper scripts for automated service installation.",
+              "icon": "favicons/developer-tools/community-scripts.png",
+              "platforms": [
+                "web"
+              ],
+              "languages": [
+                "EN"
+              ],
+              "contentTypes": [
+                "catalog",
+                "tools"
+              ],
+              "topics": [
+                "technology",
+                "linux"
+              ],
+              "tools": [
+                "catalog",
+                "info"
+              ],
+              "pricing": "free"
             }
           ]
         }
