@@ -694,6 +694,23 @@
                 "privacy"
               ],
               "pricing": "paid"
+            },
+            {
+              "name": "OrangeWebsite",
+              "url": "disclaimer.html",
+              "description": "Provides Icelandic web hosting with privacy-focused services",
+              "icon": "favicons/privacy-security/orangewebsite.png",
+              "platforms": [
+                "web"
+              ],
+              "languages": [
+                "EN"
+              ],
+              "topics": [
+                "privacy",
+                "technology"
+              ],
+              "pricing": "freemium"
             }
           ]
         },
@@ -949,6 +966,25 @@
                   "vpnRequired": true
                 },
                 {
+                  "name": "Torrent-Games",
+                  "url": "disclaimer.html",
+                  "description": "Downloads torrent games, updates, and launch help",
+                  "icon": "favicons/gaming/torrent-games.png",
+                  "platforms": [
+                    "web"
+                  ],
+                  "languages": [
+                    "RU"
+                  ],
+                  "contentTypes": [
+                    "videogames"
+                  ],
+                  "tools": [
+                    "torrent"
+                  ],
+                  "pricing": "free"
+                },
+                {
                   "name": "TorrentMass",
                   "url": "disclaimer.html",
                   "description": "Russian torrent tracker for free PC game downloads, repacks from Механики/Xatab",
@@ -1084,11 +1120,50 @@
                 }
               ]
             }
+          ],
+          "links": [
+            {
+              "name": "ElAmigos Official Site",
+              "url": "disclaimer.html",
+              "description": "Indexes downloadable PC game releases and updates.",
+              "icon": "favicons/gaming/elamigos-official-site.png",
+              "platforms": [
+                "download"
+              ],
+              "languages": [
+                "EN"
+              ],
+              "tools": [
+                "direct-download"
+              ],
+              "pricing": "free"
+            }
           ]
         },
         {
           "title": "Tools",
           "links": [
+            {
+              "name": "Retrom",
+              "url": "disclaimer.html",
+              "description": "Manages self-hosted game libraries with emulation support",
+              "icon": "favicons/gaming/retrom.png",
+              "platforms": [
+                "web",
+                "self-hosted"
+              ],
+              "languages": [
+                "EN"
+              ],
+              "contentTypes": [
+                "software"
+              ],
+              "tools": [
+                "info",
+                "catalog"
+              ],
+              "pricing": "free"
+            },
             {
               "name": "WeMod",
               "url": "disclaimer.html",
@@ -1389,6 +1464,27 @@
                 "catalog"
               ],
               "pricing": "freemium"
+            },
+            {
+              "name": "CoolROM",
+              "url": "disclaimer.html",
+              "description": "Hosts retro game ROMs and emulators for download",
+              "icon": "favicons/gaming/coolrom.png",
+              "platforms": [
+                "web"
+              ],
+              "languages": [
+                "EN"
+              ],
+              "contentTypes": [
+                "videogames"
+              ],
+              "tools": [
+                "catalog",
+                "classic",
+                "direct-download"
+              ],
+              "pricing": "free"
             },
             {
               "name": "Emuparadise",
@@ -2146,6 +2242,28 @@
               "statusCheck": "auto"
             },
             {
+              "name": "Lemonade",
+              "url": "disclaimer.html",
+              "description": "Runs local AI models for text, images, and speech.",
+              "icon": "favicons/ai-ml/lemonade.png",
+              "platforms": [
+                "web"
+              ],
+              "languages": [
+                "EN"
+              ],
+              "contentTypes": [
+                "tools"
+              ],
+              "topics": [
+                "technology"
+              ],
+              "tools": [
+                "ai"
+              ],
+              "pricing": "free"
+            },
+            {
               "name": "Ollama",
               "url": "disclaimer.html",
               "description": "Run large language models locally with a simple CLI interface",
@@ -2598,6 +2716,23 @@
           "fullWidth": true,
           "links": [
             {
+              "name": "LimeTorrents",
+              "url": "disclaimer.html",
+              "description": "Indexes verified torrents for movies, games, music, and shows",
+              "icon": "favicons/torrents/limetorrents.png",
+              "platforms": [
+                "web"
+              ],
+              "languages": [
+                "EN"
+              ],
+              "tools": [
+                "torrent",
+                "catalog"
+              ],
+              "pricing": "free"
+            },
+            {
               "name": "Rutracker",
               "url": "disclaimer.html",
               "description": "Large Russian torrent tracker for movies, shows, software, and games",
@@ -2697,6 +2832,74 @@
                 "EN"
               ],
               "contentTypes": [
+                "catalog"
+              ],
+              "pricing": "free"
+            },
+            {
+              "name": "r/Piracy Megathread",
+              "url": "disclaimer.html",
+              "description": "Indexes piracy resources, tools, and safety guides.",
+              "icon": "favicons/communities/r-piracy-megathread.png",
+              "platforms": [
+                "web"
+              ],
+              "languages": [
+                "EN"
+              ],
+              "contentTypes": [
+                "catalog",
+                "community"
+              ],
+              "topics": [
+                "technology",
+                "privacy"
+              ],
+              "tools": [
+                "catalog",
+                "info"
+              ],
+              "pricing": "free"
+            },
+            {
+              "name": "Awesome Privacy",
+              "url": "disclaimer.html",
+              "description": "Curates privacy-respecting apps, services, and alternatives.",
+              "icon": "favicons/communities/awesome-privacy.png",
+              "platforms": [
+                "web"
+              ],
+              "languages": [
+                "EN"
+              ],
+              "contentTypes": [
+                "catalog"
+              ],
+              "topics": [
+                "privacy",
+                "technology"
+              ],
+              "tools": [
+                "catalog"
+              ],
+              "pricing": "free",
+              "instanceList": "disclaimer.html"
+            },
+            {
+              "name": "Music Megathread",
+              "url": "disclaimer.html",
+              "description": "Curates music players, tools, downloaders, and streaming resources.",
+              "icon": "favicons/communities/music-megathread.png",
+              "platforms": [
+                "web"
+              ],
+              "languages": [
+                "EN"
+              ],
+              "contentTypes": [
+                "catalog"
+              ],
+              "tools": [
                 "catalog"
               ],
               "pricing": "free"
@@ -2998,6 +3201,28 @@
                 "videogames"
               ],
               "pricing": "freemium"
+            },
+            {
+              "name": "Free Font Download",
+              "url": "disclaimer.html",
+              "description": "Lists fonts with online previews and downloadable files",
+              "icon": "favicons/software/free-font-download.png",
+              "platforms": [
+                "web"
+              ],
+              "languages": [
+                "EN"
+              ],
+              "contentTypes": [
+                "catalog"
+              ],
+              "topics": [
+                "technology"
+              ],
+              "tools": [
+                "catalog"
+              ],
+              "pricing": "free"
             },
             {
               "name": "AEdownload.com",
@@ -3403,6 +3628,48 @@
               ],
               "tools": [
                 "ai"
+              ],
+              "pricing": "free"
+            },
+            {
+              "name": "ImageBam",
+              "url": "disclaimer.html",
+              "description": "Hosts and shares images with gallery linking.",
+              "icon": "favicons/file-media-tools/imagebam.png",
+              "platforms": [
+                "web"
+              ],
+              "languages": [
+                "EN"
+              ],
+              "contentTypes": [
+                "image"
+              ],
+              "topics": [
+                "technology"
+              ],
+              "tools": [
+                "online",
+                "torrent"
+              ],
+              "pricing": "free"
+            },
+            {
+              "name": "PhotoResizer.com",
+              "url": "disclaimer.html",
+              "description": "Resizes, crops, and lightly edits images online free",
+              "icon": "favicons/file-media-tools/photoresizer-com.png",
+              "platforms": [
+                "web"
+              ],
+              "languages": [
+                "EN"
+              ],
+              "contentTypes": [
+                "image"
+              ],
+              "tools": [
+                "editor"
               ],
               "pricing": "free"
             },
