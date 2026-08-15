@@ -2942,6 +2942,50 @@
               "pricing": "free"
             },
             {
+              "name": "Privacy Guides",
+              "type": "standard",
+              "url": "disclaimer.html",
+              "description": "Recommends privacy tools and services across many categories",
+              "icon": "favicons/communities-catalogs/privacy-guides.png",
+              "platforms": [
+                "web"
+              ],
+              "languages": [
+                "EN"
+              ],
+              "tools": [
+                "info",
+                "catalog"
+              ],
+              "topics": [
+                "privacy",
+                "technology"
+              ],
+              "pricing": "free"
+            },
+            {
+              "name": "PrivacyTools.io",
+              "type": "standard",
+              "url": "disclaimer.html",
+              "description": "Recommends privacy software, services, and online guides",
+              "icon": "favicons/communities-catalogs/privacytools-io.png",
+              "platforms": [
+                "web"
+              ],
+              "languages": [
+                "EN"
+              ],
+              "tools": [
+                "catalog",
+                "info"
+              ],
+              "topics": [
+                "privacy",
+                "technology"
+              ],
+              "pricing": "free"
+            },
+            {
               "name": "r/Piracy Megathread",
               "type": "standard",
               "url": "disclaimer.html",
@@ -3593,6 +3637,27 @@
           "id": "utilities-scripts",
           "title": "Utilities & Scripts",
           "links": [
+            {
+              "name": "MySitemapGenerator",
+              "type": "standard",
+              "url": "disclaimer.html",
+              "description": "Generates RSS , XML, HTML, and visual site feeds",
+              "icon": "favicons/developer-tools/mysitemapgenerator.png",
+              "platforms": [
+                "web"
+              ],
+              "languages": [
+                "EN"
+              ],
+              "tools": [
+                "online",
+                "info"
+              ],
+              "topics": [
+                "technology"
+              ],
+              "pricing": "free"
+            },
             {
               "name": "Favicon API",
               "type": "hybrid",
