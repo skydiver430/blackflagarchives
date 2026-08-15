@@ -1441,29 +1441,6 @@
           ]
         },
         {
-          "id": "online-browser-games",
-          "title": "Online & Browser Games",
-          "links": [
-            {
-              "name": "Poker Now",
-              "type": "standard",
-              "url": "disclaimer.html",
-              "description": "Online poker with friends, quick and easy",
-              "icon": "favicons/gaming/pokernow.png",
-              "platforms": [
-                "web"
-              ],
-              "languages": [
-                "EN"
-              ],
-              "contentTypes": [
-                "videogames"
-              ],
-              "pricing": "free"
-            }
-          ]
-        },
-        {
           "id": "classic-retro",
           "title": "Classic & Retro Games",
           "links": [
@@ -1576,6 +1553,29 @@
               "pricing": "free",
               "consoleList": "disclaimer.html",
               "emulatorList": "disclaimer.html"
+            }
+          ]
+        },
+        {
+          "id": "online-browser-games",
+          "title": "Online & Browser Games",
+          "links": [
+            {
+              "name": "Poker Now",
+              "type": "standard",
+              "url": "disclaimer.html",
+              "description": "Online poker with friends, quick and easy",
+              "icon": "favicons/gaming/pokernow.png",
+              "platforms": [
+                "web"
+              ],
+              "languages": [
+                "EN"
+              ],
+              "contentTypes": [
+                "videogames"
+              ],
+              "pricing": "free"
             }
           ]
         }
@@ -3504,6 +3504,28 @@
               ],
               "tools": [
                 "crypto-payments"
+              ],
+              "pricing": "free"
+            },
+            {
+              "name": "Feather Wallet",
+              "type": "standard",
+              "url": "disclaimer.html",
+              "description": "Manages Monero wallets with privacy-focused desktop software",
+              "icon": "favicons/finance-crypto/feather-wallet.png",
+              "platforms": [
+                "web",
+                "download"
+              ],
+              "languages": [
+                "EN"
+              ],
+              "tools": [
+                "info"
+              ],
+              "topics": [
+                "technology",
+                "privacy"
               ],
               "pricing": "free"
             },
