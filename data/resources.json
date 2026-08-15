@@ -3030,7 +3030,7 @@
                 "technology"
               ],
               "pricing": "free",
-              "instanceList": "disclaimer.html"
+              "compactActions": true
             },
             {
               "name": "Music Megathread",
