@@ -49,6 +49,32 @@
       "iconType": "image"
     }
   ],
+  "languages": [
+    {
+      "id": "EN",
+      "label": "English",
+      "icon": "",
+      "iconType": "text"
+    },
+    {
+      "id": "RU",
+      "label": "Russian",
+      "icon": "",
+      "iconType": "text"
+    },
+    {
+      "id": "AM",
+      "label": "Armenian",
+      "icon": "",
+      "iconType": "text"
+    },
+    {
+      "id": "MULTI",
+      "label": "Multi-language",
+      "icon": "",
+      "iconType": "text"
+    }
+  ],
   "contentTypes": [
     {
       "id": "movies",
@@ -107,19 +133,11 @@
       "iconType": "image"
     },
     {
-      "id": "tv-channels",
-      "label": "TV",
-      "icon": "icons/satellite-dish.png",
-      "showInFilter": true,
-      "order": 8,
-      "iconType": "image"
-    },
-    {
       "id": "radio",
       "label": "Radio",
       "icon": "icons/radio.png",
       "showInFilter": true,
-      "order": 9,
+      "order": 8,
       "iconType": "image"
     },
     {
@@ -127,7 +145,7 @@
       "label": "Books",
       "icon": "icons/open-book.png",
       "showInFilter": true,
-      "order": 10,
+      "order": 9,
       "iconType": "image"
     },
     {
@@ -135,7 +153,7 @@
       "label": "Audiobooks",
       "icon": "icons/headphones.png",
       "showInFilter": true,
-      "order": 11,
+      "order": 10,
       "iconType": "image"
     },
     {
@@ -143,7 +161,7 @@
       "label": "Articles",
       "icon": "icons/newspaper.png",
       "showInFilter": true,
-      "order": 12,
+      "order": 11,
       "iconType": "image"
     },
     {
@@ -151,7 +169,7 @@
       "label": "Manga",
       "icon": "icons/speech-balloon.png",
       "showInFilter": true,
-      "order": 13,
+      "order": 12,
       "iconType": "image"
     },
     {
@@ -159,7 +177,7 @@
       "label": "Courses",
       "icon": "icons/memo.png",
       "showInFilter": true,
-      "order": 14,
+      "order": 13,
       "iconType": "image"
     },
     {
@@ -167,7 +185,7 @@
       "label": "Interactive",
       "icon": "icons/computer-mouse.png",
       "showInFilter": true,
-      "order": 15,
+      "order": 14,
       "iconType": "image"
     },
     {
@@ -175,15 +193,7 @@
       "label": "Guides",
       "icon": "icons/compass.png",
       "showInFilter": true,
-      "order": 16,
-      "iconType": "image"
-    },
-    {
-      "id": "extension",
-      "label": "Extensions",
-      "icon": "icons/puzzle-piece.png",
-      "showInFilter": true,
-      "order": 17,
+      "order": 15,
       "iconType": "image"
     },
     {
@@ -191,7 +201,7 @@
       "label": "Search Engines",
       "icon": "icons/magnifying-glass.png",
       "showInFilter": true,
-      "order": 18,
+      "order": 16,
       "iconType": "image"
     },
     {
@@ -199,7 +209,7 @@
       "label": "Keyboards",
       "icon": "icons/keyboard.png",
       "showInFilter": true,
-      "order": 19,
+      "order": 17,
       "iconType": "image"
     },
     {
@@ -207,23 +217,7 @@
       "label": "Templates",
       "icon": "icons/triangular-ruler.png",
       "showInFilter": true,
-      "order": 20,
-      "iconType": "image"
-    },
-    {
-      "id": "video",
-      "label": "Video",
-      "icon": "icons/video-camera.png",
-      "showInFilter": true,
-      "order": 21,
-      "iconType": "image"
-    },
-    {
-      "id": "music-tools",
-      "label": "Music Tools",
-      "icon": "icons/control-knobs.png",
-      "showInFilter": true,
-      "order": 22,
+      "order": 18,
       "iconType": "image"
     },
     {
@@ -231,7 +225,7 @@
       "label": "Software",
       "icon": "icons/optical-disc.png",
       "showInFilter": true,
-      "order": 23,
+      "order": 19,
       "iconType": "image"
     },
     {
@@ -239,7 +233,7 @@
       "label": "Videogames",
       "icon": "icons/joystick.png",
       "showInFilter": true,
-      "order": 24,
+      "order": 20,
       "iconType": "image"
     },
     {
@@ -247,7 +241,31 @@
       "label": "Music",
       "icon": "icons/musical-notes.png",
       "showInFilter": true,
-      "order": 25,
+      "order": 21,
+      "iconType": "image"
+    },
+    {
+      "id": "image",
+      "label": "Image",
+      "icon": "🖼️",
+      "showInFilter": true,
+      "order": 22,
+      "iconType": "emoji"
+    },
+    {
+      "id": "video",
+      "label": "Video",
+      "icon": "icons/video-camera.png",
+      "showInFilter": true,
+      "order": 23,
+      "iconType": "image"
+    },
+    {
+      "id": "community",
+      "label": "Communities",
+      "icon": "icons/busts.png",
+      "showInFilter": true,
+      "order": 24,
       "iconType": "image"
     },
     {
@@ -255,7 +273,7 @@
       "label": "Chatbots",
       "icon": "icons/robot.png",
       "showInFilter": true,
-      "order": 26,
+      "order": 25,
       "iconType": "image"
     },
     {
@@ -263,13 +281,21 @@
       "label": "Local AI",
       "icon": "icons/robot.png",
       "showInFilter": true,
-      "order": 27,
+      "order": 26,
       "iconType": "image"
     },
     {
       "id": "image-generation",
       "label": "Image Generation",
       "icon": "icons/artist-palette.png",
+      "showInFilter": true,
+      "order": 27,
+      "iconType": "image"
+    },
+    {
+      "id": "video-generation",
+      "label": "Video Generation",
+      "icon": "icons/video-camera.png",
       "showInFilter": true,
       "order": 28,
       "iconType": "image"
@@ -288,46 +314,6 @@
       "icon": "icons/trophy.png",
       "showInFilter": true,
       "order": 30,
-      "iconType": "image"
-    },
-    {
-      "id": "tools",
-      "label": "Tools",
-      "icon": "icons/laptop.png",
-      "showInFilter": true,
-      "order": 31,
-      "iconType": "image"
-    },
-    {
-      "id": "image",
-      "label": "Image",
-      "icon": "🖼️",
-      "showInFilter": true,
-      "order": 32,
-      "iconType": "emoji"
-    },
-    {
-      "id": "video-generation",
-      "label": "Video Generation",
-      "icon": "icons/video-camera.png",
-      "showInFilter": true,
-      "order": 33,
-      "iconType": "image"
-    },
-    {
-      "id": "catalog",
-      "label": "Catalogs",
-      "icon": "icons/books-stack.png",
-      "showInFilter": true,
-      "order": 34,
-      "iconType": "image"
-    },
-    {
-      "id": "community",
-      "label": "Communities",
-      "icon": "icons/speech-balloon.png",
-      "showInFilter": true,
-      "order": 35,
       "iconType": "image"
     }
   ],
@@ -475,36 +461,6 @@
     "ai",
     "fitness"
   ],
-  "sports": [
-    {
-      "id": "soccer",
-      "label": "Soccer",
-      "icon": "icons/soccer-ball.png",
-      "order": 1,
-      "iconType": "image"
-    },
-    {
-      "id": "nba",
-      "label": "NBA",
-      "icon": "icons/basketball.png",
-      "order": 2,
-      "iconType": "image"
-    },
-    {
-      "id": "mma",
-      "label": "MMA",
-      "icon": "icons/boxing-glove.png",
-      "order": 3,
-      "iconType": "image"
-    },
-    {
-      "id": "f1",
-      "label": "F1",
-      "icon": "icons/racing-car.png",
-      "order": 4,
-      "iconType": "image"
-    }
-  ],
   "topics": [
     {
       "id": "typing",
@@ -542,6 +498,36 @@
       "iconType": "image"
     }
   ],
+  "sports": [
+    {
+      "id": "soccer",
+      "label": "Soccer",
+      "icon": "icons/soccer-ball.png",
+      "order": 1,
+      "iconType": "image"
+    },
+    {
+      "id": "nba",
+      "label": "NBA",
+      "icon": "icons/basketball.png",
+      "order": 2,
+      "iconType": "image"
+    },
+    {
+      "id": "mma",
+      "label": "MMA",
+      "icon": "icons/boxing-glove.png",
+      "order": 3,
+      "iconType": "image"
+    },
+    {
+      "id": "f1",
+      "label": "F1",
+      "icon": "icons/racing-car.png",
+      "order": 4,
+      "iconType": "image"
+    }
+  ],
   "blockerTypes": [
     {
       "id": "browser-extension",
@@ -570,6 +556,40 @@
       "icon": "icons/clipboard.png",
       "order": 4,
       "iconType": "image"
+    }
+  ],
+  "audioOptions": [
+    {
+      "id": "dub",
+      "label": "Dubbed",
+      "icon": "",
+      "iconType": "text"
+    },
+    {
+      "id": "sub",
+      "label": "Subtitled",
+      "icon": "",
+      "iconType": "text"
+    }
+  ],
+  "pricing": [
+    {
+      "id": "free",
+      "label": "Free",
+      "icon": "",
+      "iconType": "text"
+    },
+    {
+      "id": "freemium",
+      "label": "Freemium",
+      "icon": "",
+      "iconType": "text"
+    },
+    {
+      "id": "paid",
+      "label": "Paid",
+      "icon": "",
+      "iconType": "text"
     }
   ]
 }
