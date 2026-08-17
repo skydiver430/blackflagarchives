@@ -437,6 +437,18 @@
       "label": "Fitness",
       "icon": "icons/flexed-biceps.png",
       "iconType": "image"
+    },
+    {
+      "id": "reddit",
+      "label": "Reddit",
+      "icon": "favicons/communities-catalogs/reddit.png",
+      "iconType": "image"
+    },
+    {
+      "id": "telegram",
+      "label": "Telegram",
+      "icon": "favicons/telegram.png",
+      "iconType": "image"
     }
   ],
   "toolFilterOrder": [
@@ -459,7 +471,9 @@
     "file-sharing",
     "catalog",
     "ai",
-    "fitness"
+    "fitness",
+    "reddit",
+    "telegram"
   ],
   "topics": [
     {

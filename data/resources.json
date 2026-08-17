@@ -1402,6 +1402,31 @@
           "title": "Classic & Retro Games",
           "links": [
             {
+              "name": "4FNet",
+              "type": "standard",
+              "url": "disclaimer.html",
+              "description": "Shares links to classic PC games for download",
+              "icon": "favicons/gaming/4fnet.png",
+              "platforms": [
+                "download",
+                "desktop"
+              ],
+              "languages": [
+                "EN"
+              ],
+              "contentTypes": [
+                "videogames"
+              ],
+              "tools": [
+                "direct-download",
+                "info"
+              ],
+              "topics": [
+                "technology"
+              ],
+              "pricing": "free"
+            },
+            {
               "name": "RPCS3",
               "type": "hybrid",
               "url": "disclaimer.html",
@@ -1430,7 +1455,8 @@
               "pricing": "free",
               "actions": {
                 "github": "disclaimer.html"
-              }
+              },
+              "compactActions": true
             },
             {
               "name": "Romspedia",
@@ -1586,6 +1612,63 @@
               ],
               "contentTypes": [
                 "videogames"
+              ],
+              "pricing": "free"
+            }
+          ]
+        },
+        {
+          "id": "reddit",
+          "title": "Reddit",
+          "links": [
+            {
+              "name": "r/CrackWatch",
+              "type": "standard",
+              "url": "disclaimer.html",
+              "description": "Subreddit tracking video game cracks, DRM status, and news",
+              "icon": "favicons/gaming/reddit.png",
+              "platforms": [
+                "web"
+              ],
+              "languages": [
+                "EN"
+              ],
+              "contentTypes": [
+                "videogames"
+              ],
+              "tools": [
+                "torrent",
+                "reddit"
+              ],
+              "pricing": "free",
+              "statusCheck": "force-up"
+            }
+          ]
+        },
+        {
+          "id": "telegram",
+          "title": "Telegram Channels",
+          "links": [
+            {
+              "name": "VR Lite",
+              "type": "standard",
+              "url": "disclaimer.html",
+              "description": "Shares VR games and news for multiple devices",
+              "icon": "favicons/gaming/vr-lite.png",
+              "platforms": [
+                "download"
+              ],
+              "languages": [
+                "RU"
+              ],
+              "contentTypes": [
+                "videogames"
+              ],
+              "tools": [
+                "telegram"
+              ],
+              "topics": [
+                "technology"
               ],
               "pricing": "free"
             }
@@ -2837,6 +2920,34 @@
               "pricing": "free"
             }
           ]
+        },
+        {
+          "id": "reddit",
+          "title": "Reddit",
+          "links": [
+            {
+              "name": "r/LocalLlama",
+              "type": "standard",
+              "url": "disclaimer.html",
+              "description": "Reddit community for local LLM discussions, news, and model recommendations",
+              "icon": "favicons/ai-machine-learning/reddit-localllama.png",
+              "platforms": [
+                "web"
+              ],
+              "languages": [
+                "EN"
+              ],
+              "contentTypes": [
+                "community"
+              ],
+              "tools": [
+                "ai",
+                "reddit"
+              ],
+              "pricing": "free",
+              "statusCheck": "force-up"
+            }
+          ]
         }
       ]
     },
@@ -2936,6 +3047,34 @@
               "pricing": "free"
             }
           ]
+        },
+        {
+          "id": "reddit",
+          "title": "Reddit",
+          "links": [
+            {
+              "name": "r/OpenSignups",
+              "type": "standard",
+              "url": "disclaimer.html",
+              "description": "Reddit community for private tracker signups",
+              "icon": "favicons/torrents-trackers/reddit-opensignups.png",
+              "platforms": [
+                "web"
+              ],
+              "languages": [
+                "EN"
+              ],
+              "contentTypes": [
+                "community"
+              ],
+              "tools": [
+                "torrent",
+                "reddit"
+              ],
+              "pricing": "free",
+              "statusCheck": "force-up"
+            }
+          ]
         }
       ]
     },
@@ -2952,6 +3091,13 @@
           "pills": [
             "torrent",
             "ai"
+          ]
+        },
+        {
+          "label": "Platform",
+          "pills": [
+            "reddit",
+            "telegram"
           ]
         }
       ],
@@ -3123,73 +3269,18 @@
           ]
         },
         {
-          "id": "community-forums",
-          "title": "Community Forums",
-          "links": [
-            {
-              "name": "r/CrackWatch",
-              "type": "standard",
-              "url": "disclaimer.html",
-              "description": "Subreddit tracking video game cracks, DRM status, and news",
-              "icon": "favicons/communities-catalogs/reddit.png",
-              "platforms": [
-                "web"
-              ],
-              "languages": [
-                "EN"
-              ],
-              "contentTypes": [
-                "videogames"
-              ],
-              "tools": [
-                "torrent"
-              ],
-              "pricing": "free",
-              "statusCheck": "force-up"
-            },
-            {
-              "name": "r/OpenSignups",
-              "type": "standard",
-              "url": "disclaimer.html",
-              "description": "Reddit community for private tracker signups",
-              "icon": "favicons/communities-catalogs/reddit-opensignups.png",
-              "platforms": [
-                "web"
-              ],
-              "languages": [
-                "EN"
-              ],
-              "contentTypes": [
-                "community"
-              ],
-              "tools": [
-                "torrent"
-              ],
-              "pricing": "free",
-              "statusCheck": "force-up"
-            },
-            {
-              "name": "r/LocalLlama",
-              "type": "standard",
-              "url": "disclaimer.html",
-              "description": "Reddit community for local LLM discussions, news, and model recommendations",
-              "icon": "favicons/communities-catalogs/reddit-localllama.png",
-              "platforms": [
-                "web"
-              ],
-              "languages": [
-                "EN"
-              ],
-              "contentTypes": [
-                "community"
-              ],
-              "tools": [
-                "ai"
-              ],
-              "pricing": "free",
-              "statusCheck": "force-up"
-            }
-          ]
+          "id": "reddit",
+          "title": "Reddit",
+          "icon": "favicons/communities-catalogs/reddit.png",
+          "aggregateByTool": "reddit",
+          "links": []
+        },
+        {
+          "id": "telegram",
+          "title": "Telegram Channels",
+          "icon": "favicons/telegram.png",
+          "aggregateByTool": "telegram",
+          "links": []
         }
       ]
     },
