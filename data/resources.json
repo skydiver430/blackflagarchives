@@ -1449,8 +1449,7 @@
               ],
               "tools": [
                 "direct-download",
-                "info",
-                "catalog"
+                "info"
               ],
               "topics": [
                 "technology"
