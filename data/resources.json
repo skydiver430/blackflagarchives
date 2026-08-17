@@ -937,23 +937,6 @@
           "title": "PC Games & Repacks",
           "links": [
             {
-              "name": "ElAmigos Official Site",
-              "type": "standard",
-              "url": "disclaimer.html",
-              "description": "Indexes downloadable PC game releases and updates.",
-              "icon": "favicons/gaming/elamigos-official-site.png",
-              "platforms": [
-                "download"
-              ],
-              "languages": [
-                "EN"
-              ],
-              "tools": [
-                "direct-download"
-              ],
-              "pricing": "free"
-            },
-            {
               "name": "AnkerGames",
               "type": "standard",
               "url": "disclaimer.html",
@@ -998,43 +981,6 @@
               "pricing": "free"
             },
             {
-              "name": "CPG Repacks",
-              "type": "standard",
-              "url": "disclaimer.html",
-              "description": "Pre-installed PC Adult games with direct download links",
-              "icon": "favicons/gaming/cpgrepacks.png",
-              "platforms": [
-                "download"
-              ],
-              "languages": [
-                "EN"
-              ],
-              "contentTypes": [
-                "videogames"
-              ],
-              "tools": [
-                "adult"
-              ],
-              "pricing": "free"
-            },
-            {
-              "name": "Dbtorrent.games",
-              "type": "standard",
-              "url": "disclaimer.html",
-              "description": "Offers Russian-language PC game torrents with daily updates",
-              "icon": "favicons/gaming/dbtorrent-games.png",
-              "platforms": [
-                "web"
-              ],
-              "languages": [
-                "RU"
-              ],
-              "tools": [
-                "torrent"
-              ],
-              "pricing": "free"
-            },
-            {
               "name": "Torrent-Games",
               "type": "standard",
               "url": "disclaimer.html",
@@ -1055,11 +1001,49 @@
               "pricing": "free"
             },
             {
+              "name": "ElAmigos Official Site",
+              "type": "standard",
+              "url": "disclaimer.html",
+              "description": "Indexes downloadable PC game releases and updates.",
+              "icon": "favicons/gaming/elamigos-official-site.png",
+              "platforms": [
+                "download"
+              ],
+              "languages": [
+                "EN"
+              ],
+              "tools": [
+                "direct-download"
+              ],
+              "pricing": "free"
+            },
+            {
               "name": "TorrentMass",
               "type": "standard",
               "url": "disclaimer.html",
               "description": "Russian torrent tracker for free PC game downloads, repacks from Механики/Xatab",
               "icon": "favicons/gaming/torrent-mass.png",
+              "platforms": [
+                "download"
+              ],
+              "languages": [
+                "RU"
+              ],
+              "contentTypes": [
+                "videogames"
+              ],
+              "tools": [
+                "torrent",
+                "repack"
+              ],
+              "pricing": "free"
+            },
+            {
+              "name": "R.G. Механики",
+              "type": "standard",
+              "url": "disclaimer.html",
+              "description": "Torrent repacks from R.G. Механики team with PC games",
+              "icon": "favicons/gaming/repack-games.png",
               "platforms": [
                 "download"
               ],
@@ -1119,23 +1103,39 @@
               "pricing": "free"
             },
             {
-              "name": "R.G. Механики",
+              "name": "CPG Repacks",
               "type": "standard",
               "url": "disclaimer.html",
-              "description": "Torrent repacks from R.G. Механики team with PC games",
-              "icon": "favicons/gaming/repack-games.png",
+              "description": "Pre-installed PC Adult games with direct download links",
+              "icon": "favicons/gaming/cpgrepacks.png",
               "platforms": [
                 "download"
               ],
               "languages": [
-                "RU"
+                "EN"
               ],
               "contentTypes": [
                 "videogames"
               ],
               "tools": [
-                "torrent",
-                "repack"
+                "adult"
+              ],
+              "pricing": "free"
+            },
+            {
+              "name": "Dbtorrent.games",
+              "type": "standard",
+              "url": "disclaimer.html",
+              "description": "Offers Russian-language PC game torrents with daily updates",
+              "icon": "favicons/gaming/dbtorrent-games.png",
+              "platforms": [
+                "web"
+              ],
+              "languages": [
+                "RU"
+              ],
+              "tools": [
+                "torrent"
               ],
               "pricing": "free"
             },
