@@ -1032,8 +1032,7 @@
               "tools": [
                 "torrent"
               ],
-              "pricing": "free",
-              "vpnRequired": true
+              "pricing": "free"
             },
             {
               "name": "Torrent-Games",
@@ -1158,48 +1157,6 @@
               "tools": [
                 "online",
                 "torrent"
-              ],
-              "pricing": "free"
-            },
-            {
-              "name": "Xatab Repacks",
-              "type": "standard",
-              "url": "disclaimer.html",
-              "description": "Game repacks by Xatab team",
-              "icon": "favicons/gaming/xatab.png",
-              "platforms": [
-                "download"
-              ],
-              "languages": [
-                "RU"
-              ],
-              "contentTypes": [
-                "videogames"
-              ],
-              "tools": [
-                "torrent",
-                "repack"
-              ],
-              "pricing": "free"
-            },
-            {
-              "name": "VRTor",
-              "type": "standard",
-              "url": "disclaimer.html",
-              "description": "VR games tracker and community",
-              "icon": "favicons/gaming/vrtor.png",
-              "platforms": [
-                "download"
-              ],
-              "languages": [
-                "RU"
-              ],
-              "contentTypes": [
-                "videogames"
-              ],
-              "tools": [
-                "torrent",
-                "vr"
               ],
               "pricing": "free"
             }
@@ -1445,6 +1402,62 @@
           "title": "Classic & Retro Games",
           "links": [
             {
+              "name": "RPCS3",
+              "type": "hybrid",
+              "url": "disclaimer.html",
+              "description": "Emulates PlayStation 3 games and software on computers",
+              "icon": "favicons/gaming/rpcs3.png",
+              "platforms": [
+                "download",
+                "desktop",
+                "macos",
+                "windows"
+              ],
+              "languages": [
+                "EN"
+              ],
+              "contentTypes": [
+                "videogames",
+                "software"
+              ],
+              "tools": [
+                "info",
+                "pre-installed"
+              ],
+              "topics": [
+                "technology"
+              ],
+              "pricing": "free",
+              "actions": {
+                "github": "disclaimer.html"
+              }
+            },
+            {
+              "name": "Romspedia",
+              "type": "standard",
+              "url": "disclaimer.html",
+              "description": "Provides ROM downloads and game reference information",
+              "icon": "favicons/gaming/romspedia.png",
+              "platforms": [
+                "web"
+              ],
+              "languages": [
+                "EN"
+              ],
+              "contentTypes": [
+                "videogames"
+              ],
+              "tools": [
+                "direct-download",
+                "info",
+                "catalog"
+              ],
+              "topics": [
+                "technology"
+              ],
+              "pricing": "free"
+            },
+            {
               "name": "The Collection Chamber",
               "type": "standard",
               "url": "disclaimer.html",
@@ -1609,6 +1622,30 @@
                 "tv-shows"
               ],
               "pricing": "free"
+            },
+            {
+              "name": "BiliBili",
+              "type": "standard",
+              "url": "disclaimer.html",
+              "description": "Streams anime, movies, shows, and creator videos",
+              "icon": "favicons/media-streaming/bilibili.png",
+              "platforms": [
+                "web"
+              ],
+              "languages": [
+                "EN",
+                "MULTI"
+              ],
+              "contentTypes": [
+                "anime",
+                "movies",
+                "tv-shows"
+              ],
+              "tools": [
+                "online"
+              ],
+              "pricing": "freemium",
+              "vpnRequired": true
             },
             {
               "name": "Z-Stream",
