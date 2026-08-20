@@ -1823,24 +1823,6 @@
               "pricing": "free"
             },
             {
-              "name": "LookMovie2.to",
-              "type": "standard",
-              "url": "disclaimer.html",
-              "description": "Streams movies and TV shows free in 1080p and 720p",
-              "icon": "favicons/media-streaming/lookmovie2-to.png",
-              "platforms": [
-                "web"
-              ],
-              "languages": [
-                "EN"
-              ],
-              "contentTypes": [
-                "movies",
-                "tv-shows"
-              ],
-              "pricing": "free"
-            },
-            {
               "name": "ReelRover",
               "type": "standard",
               "url": "disclaimer.html",
@@ -2180,7 +2162,34 @@
                 "f1"
               ],
               "pricing": "free",
-              "telegram": "disclaimer.html"
+              "telegram": "disclaimer.html",
+              "pin": 10
+            },
+            {
+              "name": "Streamed",
+              "type": "standard",
+              "url": "disclaimer.html",
+              "description": "Live sports streams and events",
+              "icon": "favicons/media-streaming/live-tv-sports/streamed.png",
+              "platforms": [
+                "web"
+              ],
+              "languages": [
+                "MULTI"
+              ],
+              "contentTypes": [
+                "sports",
+                "live"
+              ],
+              "sports": [
+                "soccer",
+                "nba",
+                "mma",
+                "f1"
+              ],
+              "pricing": "free",
+              "monitor": "disclaimer.html",
+              "pin": 20
             },
             {
               "name": "GetStream Live",
@@ -2293,31 +2302,6 @@
                 "f1"
               ],
               "pricing": "free"
-            },
-            {
-              "name": "Streamed",
-              "type": "standard",
-              "url": "disclaimer.html",
-              "description": "Live sports streams and events",
-              "icon": "favicons/media-streaming/live-tv-sports/streamed.png",
-              "platforms": [
-                "web"
-              ],
-              "languages": [
-                "MULTI"
-              ],
-              "contentTypes": [
-                "sports",
-                "live"
-              ],
-              "sports": [
-                "soccer",
-                "nba",
-                "mma",
-                "f1"
-              ],
-              "pricing": "free",
-              "monitor": "disclaimer.html"
             }
           ]
         },
@@ -2346,6 +2330,7 @@
                 "torrent"
               ],
               "pricing": "free",
+              "monitor": "disclaimer.html",
               "pin": 10
             },
             {
