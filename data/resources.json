@@ -12,6 +12,30 @@
           "title": "E-Books & Papers",
           "links": [
             {
+              "name": "Z-Library",
+              "type": "standard",
+              "url": "disclaimer.html",
+              "description": "World's largest free e-book library",
+              "icon": "favicons/books-audiobooks/z-library.png",
+              "platforms": [
+                "download",
+                "desktop",
+                "mobile"
+              ],
+              "languages": [
+                "MULTI",
+                "EN",
+                "RU"
+              ],
+              "contentTypes": [
+                "books",
+                "articles"
+              ],
+              "pricing": "free",
+              "monitor": "disclaimer.html",
+              "pin": 10
+            },
+            {
               "name": "Anna's Archive",
               "type": "standard",
               "url": "disclaimer.html",
@@ -29,7 +53,8 @@
                 "books",
                 "articles"
               ],
-              "pricing": "free"
+              "pricing": "free",
+              "pin": 20
             },
             {
               "name": "Liber3",
@@ -107,29 +132,6 @@
               ],
               "pricing": "free",
               "monitor": "disclaimer.html"
-            },
-            {
-              "name": "Z-Library",
-              "type": "standard",
-              "url": "disclaimer.html",
-              "description": "World's largest free e-book library",
-              "icon": "favicons/books-audiobooks/z-library.png",
-              "platforms": [
-                "download",
-                "desktop",
-                "mobile"
-              ],
-              "languages": [
-                "MULTI",
-                "EN",
-                "RU"
-              ],
-              "contentTypes": [
-                "books",
-                "articles"
-              ],
-              "pricing": "free",
-              "monitor": "disclaimer.html"
             }
           ]
         },
@@ -177,6 +179,28 @@
               ],
               "contentTypes": [
                 "audiobooks"
+              ],
+              "pricing": "free"
+            },
+            {
+              "name": "Libation",
+              "type": "standard",
+              "url": "disclaimer.html",
+              "description": "Downloads and manages Audible audiobooks in local files",
+              "icon": "favicons/books-audiobooks/libation.png",
+              "platforms": [
+                "download",
+                "desktop"
+              ],
+              "languages": [
+                "EN"
+              ],
+              "contentTypes": [
+                "audiobooks"
+              ],
+              "tools": [
+                "direct-download",
+                "info"
               ],
               "pricing": "free"
             },
@@ -866,22 +890,6 @@
           "title": "Anonymous Services",
           "links": [
             {
-              "name": "Kill the Newsletter",
-              "type": "standard",
-              "url": "disclaimer.html",
-              "description": "Convert email newsletters to RSS feeds",
-              "icon": "favicons/anonymity-privacy/kill-the-newsletter.png",
-              "platforms": [
-                "web",
-                "mobile"
-              ],
-              "languages": [
-                "EN"
-              ],
-              "pricing": "free",
-              "statusCheck": "force-up"
-            },
-            {
               "name": "MoneroSMS",
               "type": "standard",
               "url": "disclaimer.html",
@@ -896,7 +904,24 @@
               "tools": [
                 "crypto-payments"
               ],
-              "pricing": "freemium"
+              "pricing": "freemium",
+              "pin": 10
+            },
+            {
+              "name": "Kill the Newsletter",
+              "type": "standard",
+              "url": "disclaimer.html",
+              "description": "Convert email newsletters to RSS feeds",
+              "icon": "favicons/anonymity-privacy/kill-the-newsletter.png",
+              "platforms": [
+                "web",
+                "mobile"
+              ],
+              "languages": [
+                "EN"
+              ],
+              "pricing": "free",
+              "statusCheck": "force-up"
             }
           ]
         }
@@ -1410,6 +1435,53 @@
           "title": "Classic & Retro Games",
           "links": [
             {
+              "name": "CoolROM",
+              "type": "standard",
+              "url": "disclaimer.html",
+              "description": "Hosts retro game ROMs and emulators for download",
+              "icon": "favicons/gaming/coolrom.png",
+              "platforms": [
+                "web"
+              ],
+              "languages": [
+                "EN"
+              ],
+              "contentTypes": [
+                "videogames"
+              ],
+              "tools": [
+                "classic",
+                "direct-download"
+              ],
+              "pricing": "free",
+              "pin": 10
+            },
+            {
+              "name": "Romspedia",
+              "type": "standard",
+              "url": "disclaimer.html",
+              "description": "Provides ROM downloads and game reference information",
+              "icon": "favicons/gaming/romspedia.png",
+              "platforms": [
+                "web"
+              ],
+              "languages": [
+                "EN"
+              ],
+              "contentTypes": [
+                "videogames"
+              ],
+              "tools": [
+                "direct-download",
+                "info"
+              ],
+              "topics": [
+                "technology"
+              ],
+              "pricing": "free",
+              "pin": 20
+            },
+            {
               "name": "4FNet",
               "type": "standard",
               "url": "disclaimer.html",
@@ -1452,27 +1524,6 @@
               "pricing": "freemium"
             },
             {
-              "name": "CoolROM",
-              "type": "standard",
-              "url": "disclaimer.html",
-              "description": "Hosts retro game ROMs and emulators for download",
-              "icon": "favicons/gaming/coolrom.png",
-              "platforms": [
-                "web"
-              ],
-              "languages": [
-                "EN"
-              ],
-              "contentTypes": [
-                "videogames"
-              ],
-              "tools": [
-                "classic",
-                "direct-download"
-              ],
-              "pricing": "free"
-            },
-            {
               "name": "Emuparadise",
               "type": "hybrid",
               "url": "disclaimer.html",
@@ -1496,30 +1547,6 @@
               "pricing": "free",
               "consoleList": "disclaimer.html",
               "emulatorList": "disclaimer.html"
-            },
-            {
-              "name": "Romspedia",
-              "type": "standard",
-              "url": "disclaimer.html",
-              "description": "Provides ROM downloads and game reference information",
-              "icon": "favicons/gaming/romspedia.png",
-              "platforms": [
-                "web"
-              ],
-              "languages": [
-                "EN"
-              ],
-              "contentTypes": [
-                "videogames"
-              ],
-              "tools": [
-                "direct-download",
-                "info"
-              ],
-              "topics": [
-                "technology"
-              ],
-              "pricing": "free"
             },
             {
               "name": "RPCS3",
@@ -1696,42 +1723,24 @@
           "title": "Movies & TV Series",
           "links": [
             {
-              "name": "Cineby",
+              "name": "Z-Stream",
               "type": "standard",
               "url": "disclaimer.html",
-              "description": "Free streaming platform for movies, TV shows, and animated content",
-              "icon": "favicons/media-streaming/movies-series/cineby.ico",
+              "description": "Online movie streaming",
+              "icon": "favicons/media-streaming/movies-series/pstream.png",
               "platforms": [
-                "web"
+                "web",
+                "desktop"
               ],
               "languages": [
                 "EN"
               ],
               "contentTypes": [
                 "movies",
-                "tv-shows",
-                "animated"
+                "tv-shows"
               ],
-              "pricing": "free"
-            },
-            {
-              "name": "Cinegram",
-              "type": "standard",
-              "url": "disclaimer.html",
-              "description": "Stream movies, series, and animated content",
-              "icon": "favicons/media-streaming/movies-series/cinegram.png",
-              "platforms": [
-                "web"
-              ],
-              "languages": [
-                "EN"
-              ],
-              "contentTypes": [
-                "movies",
-                "tv-shows",
-                "animated"
-              ],
-              "pricing": "free"
+              "pricing": "free",
+              "pin": 10
             },
             {
               "name": "Flixer",
@@ -1751,14 +1760,55 @@
                 "animated"
               ],
               "pricing": "free",
-              "monitor": "disclaimer.html"
+              "monitor": "disclaimer.html",
+              "pin": 20
             },
             {
-              "name": "FMovies",
+              "name": "Watch32",
               "type": "standard",
               "url": "disclaimer.html",
-              "description": "Stream movies, series, and animated content online",
-              "icon": "favicons/media-streaming/movies-series/fmovies.png",
+              "description": "English movies and series online",
+              "icon": "favicons/media-streaming/movies-series/watch32.png",
+              "platforms": [
+                "web"
+              ],
+              "languages": [
+                "EN"
+              ],
+              "contentTypes": [
+                "movies",
+                "tv-shows"
+              ],
+              "pricing": "free",
+              "telegram": "disclaimer.html",
+              "monitor": "disclaimer.html",
+              "pin": 30
+            },
+            {
+              "name": "Nepu.to Movies",
+              "type": "standard",
+              "url": "disclaimer.html",
+              "description": "Movies and series streaming platform",
+              "icon": "favicons/media-streaming/movies-series/nepu-movies.png",
+              "platforms": [
+                "web"
+              ],
+              "languages": [
+                "EN"
+              ],
+              "contentTypes": [
+                "movies",
+                "tv-shows"
+              ],
+              "pricing": "free",
+              "pin": 40
+            },
+            {
+              "name": "Cinegram",
+              "type": "standard",
+              "url": "disclaimer.html",
+              "description": "Stream movies, series, and animated content",
+              "icon": "favicons/media-streaming/movies-series/cinegram.png",
               "platforms": [
                 "web"
               ],
@@ -1791,24 +1841,6 @@
               "pricing": "free"
             },
             {
-              "name": "Nepu.to Movies",
-              "type": "standard",
-              "url": "disclaimer.html",
-              "description": "Movies and series streaming platform",
-              "icon": "favicons/media-streaming/movies-series/nepu-movies.png",
-              "platforms": [
-                "web"
-              ],
-              "languages": [
-                "EN"
-              ],
-              "contentTypes": [
-                "movies",
-                "tv-shows"
-              ],
-              "pricing": "free"
-            },
-            {
               "name": "ReelRover",
               "type": "standard",
               "url": "disclaimer.html",
@@ -1817,43 +1849,6 @@
               "platforms": [
                 "desktop",
                 "mobile"
-              ],
-              "languages": [
-                "EN"
-              ],
-              "contentTypes": [
-                "movies",
-                "tv-shows"
-              ],
-              "pricing": "free"
-            },
-            {
-              "name": "Watch32",
-              "type": "standard",
-              "url": "disclaimer.html",
-              "description": "English movies and series online",
-              "icon": "favicons/media-streaming/movies-series/watch32.png",
-              "platforms": [
-                "web"
-              ],
-              "languages": [
-                "EN"
-              ],
-              "contentTypes": [
-                "movies",
-                "tv-shows"
-              ],
-              "pricing": "free"
-            },
-            {
-              "name": "Z-Stream",
-              "type": "standard",
-              "url": "disclaimer.html",
-              "description": "Online movie streaming",
-              "icon": "favicons/media-streaming/movies-series/pstream.png",
-              "platforms": [
-                "web",
-                "desktop"
               ],
               "languages": [
                 "EN"
@@ -2006,6 +2001,72 @@
           "title": "Anime",
           "links": [
             {
+              "name": "HiAnime",
+              "type": "standard",
+              "url": "disclaimer.html",
+              "description": "Anime streaming site",
+              "icon": "favicons/media-streaming/anime/hianime.png",
+              "platforms": [
+                "web"
+              ],
+              "languages": [
+                "EN"
+              ],
+              "contentTypes": [
+                "anime"
+              ],
+              "audioOptions": [
+                "dub",
+                "sub"
+              ],
+              "pricing": "free",
+              "pin": 10
+            },
+            {
+              "name": "KickAssAnime",
+              "type": "standard",
+              "url": "disclaimer.html",
+              "description": "Anime streaming with SUB and DUB options",
+              "icon": "favicons/media-streaming/anime/kickassanime.png",
+              "platforms": [
+                "web"
+              ],
+              "languages": [
+                "EN"
+              ],
+              "contentTypes": [
+                "anime"
+              ],
+              "audioOptions": [
+                "dub",
+                "sub"
+              ],
+              "pricing": "free",
+              "pin": 20
+            },
+            {
+              "name": "Yummy Anime",
+              "type": "standard",
+              "url": "disclaimer.html",
+              "description": "Russian anime streaming site",
+              "icon": "favicons/media-streaming/anime/yummyani.png",
+              "platforms": [
+                "web"
+              ],
+              "languages": [
+                "RU"
+              ],
+              "contentTypes": [
+                "anime"
+              ],
+              "audioOptions": [
+                "dub",
+                "sub"
+              ],
+              "pricing": "free",
+              "pin": 30
+            },
+            {
               "name": "9AnimeTV",
               "type": "standard",
               "url": "disclaimer.html",
@@ -2070,48 +2131,6 @@
               "pricing": "free"
             },
             {
-              "name": "HiAnime",
-              "type": "standard",
-              "url": "disclaimer.html",
-              "description": "Anime streaming site",
-              "icon": "favicons/media-streaming/anime/hianime.png",
-              "platforms": [
-                "web"
-              ],
-              "languages": [
-                "EN"
-              ],
-              "contentTypes": [
-                "anime"
-              ],
-              "audioOptions": [
-                "dub",
-                "sub"
-              ],
-              "pricing": "free"
-            },
-            {
-              "name": "KickAssAnime",
-              "type": "standard",
-              "url": "disclaimer.html",
-              "description": "Anime streaming with SUB and DUB options",
-              "icon": "favicons/media-streaming/anime/kickassanime.png",
-              "platforms": [
-                "web"
-              ],
-              "languages": [
-                "EN"
-              ],
-              "contentTypes": [
-                "anime"
-              ],
-              "audioOptions": [
-                "dub",
-                "sub"
-              ],
-              "pricing": "free"
-            },
-            {
               "name": "Nepu.to Anime",
               "type": "standard",
               "url": "disclaimer.html",
@@ -2122,27 +2141,6 @@
               ],
               "languages": [
                 "EN"
-              ],
-              "contentTypes": [
-                "anime"
-              ],
-              "audioOptions": [
-                "dub",
-                "sub"
-              ],
-              "pricing": "free"
-            },
-            {
-              "name": "Yummy Anime",
-              "type": "standard",
-              "url": "disclaimer.html",
-              "description": "Russian anime streaming site",
-              "icon": "favicons/media-streaming/anime/yummyani.png",
-              "platforms": [
-                "web"
-              ],
-              "languages": [
-                "RU"
               ],
               "contentTypes": [
                 "anime"
@@ -2328,27 +2326,6 @@
           "title": "Torrents",
           "links": [
             {
-              "name": "Oldtoons",
-              "type": "standard",
-              "url": "disclaimer.html",
-              "description": "Classic cartoon and anime torrent archive with retro animation",
-              "icon": "favicons/media-streaming/oldtoons.png",
-              "platforms": [
-                "download"
-              ],
-              "languages": [
-                "EN"
-              ],
-              "contentTypes": [
-                "animated",
-                "anime"
-              ],
-              "tools": [
-                "torrent"
-              ],
-              "pricing": "free"
-            },
-            {
               "name": "Kinozal",
               "type": "standard",
               "url": "disclaimer.html",
@@ -2368,7 +2345,30 @@
               "tools": [
                 "torrent"
               ],
-              "pricing": "free"
+              "pricing": "free",
+              "pin": 10
+            },
+            {
+              "name": "Oldtoons",
+              "type": "standard",
+              "url": "disclaimer.html",
+              "description": "Classic cartoon and anime torrent archive with retro animation",
+              "icon": "favicons/media-streaming/oldtoons.png",
+              "platforms": [
+                "download"
+              ],
+              "languages": [
+                "EN"
+              ],
+              "contentTypes": [
+                "animated",
+                "anime"
+              ],
+              "tools": [
+                "torrent"
+              ],
+              "pricing": "free",
+              "pin": 20
             }
           ]
         },
@@ -2972,23 +2972,6 @@
           "title": "General Trackers",
           "links": [
             {
-              "name": "LimeTorrents",
-              "type": "standard",
-              "url": "disclaimer.html",
-              "description": "Indexes verified torrents for movies, games, music, and shows",
-              "icon": "favicons/torrents-trackers/limetorrents.png",
-              "platforms": [
-                "web"
-              ],
-              "languages": [
-                "EN"
-              ],
-              "tools": [
-                "torrent"
-              ],
-              "pricing": "free"
-            },
-            {
               "name": "Rutracker",
               "type": "standard",
               "url": "disclaimer.html",
@@ -3008,6 +2991,24 @@
                 "books",
                 "movies",
                 "tv-shows"
+              ],
+              "tools": [
+                "torrent"
+              ],
+              "pricing": "free",
+              "pin": 1
+            },
+            {
+              "name": "LimeTorrents",
+              "type": "standard",
+              "url": "disclaimer.html",
+              "description": "Indexes verified torrents for movies, games, music, and shows",
+              "icon": "favicons/torrents-trackers/limetorrents.png",
+              "platforms": [
+                "web"
+              ],
+              "languages": [
+                "EN"
               ],
               "tools": [
                 "torrent"
@@ -3114,6 +3115,28 @@
           "id": "resource-catalogs",
           "title": "Resource Catalogs",
           "links": [
+            {
+              "name": "Awesome Digital Escape Tools",
+              "type": "standard",
+              "url": "disclaimer.html",
+              "description": "Curates privacy tools and open-source software alternatives",
+              "icon": "favicons/communities-catalogs/awesome-digital-escape-tools.png",
+              "platforms": [
+                "web"
+              ],
+              "languages": [
+                "EN"
+              ],
+              "tools": [
+                "catalog",
+                "info"
+              ],
+              "topics": [
+                "privacy",
+                "technology"
+              ],
+              "pricing": "free"
+            },
             {
               "name": "Awesome Privacy",
               "type": "hybrid",
