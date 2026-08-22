@@ -1785,6 +1785,25 @@
               "pin": 30
             },
             {
+              "name": "Kinogo",
+              "type": "standard",
+              "url": "disclaimer.html",
+              "description": "Russian movies and TV shows online",
+              "icon": "favicons/media-streaming/movies-series/kinogo.png",
+              "platforms": [
+                "web"
+              ],
+              "languages": [
+                "RU"
+              ],
+              "contentTypes": [
+                "movies",
+                "tv-shows"
+              ],
+              "pricing": "free",
+              "pin": 35
+            },
+            {
               "name": "Nepu.to Movies",
               "type": "standard",
               "url": "disclaimer.html",
@@ -1880,24 +1899,6 @@
               "vpnRequired": true
             },
             {
-              "name": "Kinogo",
-              "type": "standard",
-              "url": "disclaimer.html",
-              "description": "Russian movies and TV shows online",
-              "icon": "favicons/media-streaming/movies-series/kinogo.png",
-              "platforms": [
-                "web"
-              ],
-              "languages": [
-                "RU"
-              ],
-              "contentTypes": [
-                "movies",
-                "tv-shows"
-              ],
-              "pricing": "free"
-            },
-            {
               "name": "Kinokrad",
               "type": "standard",
               "url": "disclaimer.html",
@@ -1932,7 +1933,8 @@
                 "movies",
                 "tv-shows"
               ],
-              "pricing": "free"
+              "pricing": "free",
+              "vpnRequired": true
             },
             {
               "name": "BiliBili",
