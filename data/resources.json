@@ -402,7 +402,8 @@
               "browsers": {
                 "chrome": "disclaimer.html",
                 "firefox": "disclaimer.html"
-              }
+              },
+              "pin": 10
             },
             {
               "name": "Adblock Plus",
@@ -434,6 +435,19 @@
           "id": "self-hosted",
           "title": "Self-Hosted & Blocklists",
           "links": [
+            {
+              "name": "Technitium DNS Server",
+              "type": "action",
+              "description": "Self-hosted DNS server for privacy, security, and ad blocking",
+              "icon": "favicons/adblockers/technitium.png",
+              "blockerType": "self-hosted",
+              "pricing": "free",
+              "actions": {
+                "github": "disclaimer.html",
+                "instructions": "disclaimer.html"
+              },
+              "pin": 10
+            },
             {
               "name": "AdGuard Home",
               "type": "action",
@@ -468,18 +482,6 @@
                 "github": "disclaimer.html",
                 "instructions": "disclaimer.html"
               }
-            },
-            {
-              "name": "Technitium DNS Server",
-              "type": "action",
-              "description": "Self-hosted DNS server for privacy, security, and ad blocking",
-              "icon": "favicons/adblockers/technitium.png",
-              "blockerType": "self-hosted",
-              "pricing": "free",
-              "actions": {
-                "github": "disclaimer.html",
-                "instructions": "disclaimer.html"
-              }
             }
           ]
         },
@@ -487,6 +489,19 @@
           "id": "dns-services",
           "title": "DNS Services",
           "links": [
+            {
+              "name": "Quad9",
+              "type": "dns-service",
+              "url": "disclaimer.html",
+              "description": "Free DNS service with no logging, blocks malware and provides maximum privacy",
+              "icon": "favicons/adblockers/quad9.png",
+              "blockerType": "dns-service",
+              "pricing": "free",
+              "dnsAddresses": [
+                "9.9.9.9"
+              ],
+              "pin": 10
+            },
             {
               "name": "AdGuard DNS",
               "type": "dns-service",
@@ -509,18 +524,6 @@
               "pricing": "free",
               "dnsAddresses": [
                 "194.242.2.4"
-              ]
-            },
-            {
-              "name": "Quad9",
-              "type": "dns-service",
-              "url": "disclaimer.html",
-              "description": "Free DNS service with no logging, blocks malware and provides maximum privacy",
-              "icon": "favicons/adblockers/quad9.png",
-              "blockerType": "dns-service",
-              "pricing": "free",
-              "dnsAddresses": [
-                "9.9.9.9"
               ]
             }
           ]
@@ -590,46 +593,6 @@
           "title": "Search Engines",
           "links": [
             {
-              "name": "Mojeek",
-              "type": "hybrid",
-              "url": "disclaimer.html",
-              "description": "Independent search engine with its own crawler and index, no tracking or personalized results",
-              "icon": "favicons/privacy-tools/mojeek.png",
-              "platforms": [
-                "web"
-              ],
-              "languages": [
-                "EN"
-              ],
-              "contentTypes": [
-                "search-engine"
-              ],
-              "pricing": "free",
-              "actions": {
-                "default-search": "disclaimer.html"
-              }
-            },
-            {
-              "name": "Brave Search",
-              "type": "hybrid",
-              "url": "disclaimer.html",
-              "description": "Independent, privacy-first search engine with its own web index",
-              "icon": "favicons/privacy-tools/brave-search.png",
-              "platforms": [
-                "web"
-              ],
-              "languages": [
-                "MULTI"
-              ],
-              "contentTypes": [
-                "search-engine"
-              ],
-              "pricing": "free",
-              "actions": {
-                "default-search": "disclaimer.html"
-              }
-            },
-            {
               "name": "SearXNG",
               "type": "hybrid",
               "url": "disclaimer.html",
@@ -649,7 +612,49 @@
               "actions": {
                 "docker": "disclaimer.html"
               },
-              "instanceList": "disclaimer.html"
+              "instanceList": "disclaimer.html",
+              "pin": 10
+            },
+            {
+              "name": "Brave Search",
+              "type": "hybrid",
+              "url": "disclaimer.html",
+              "description": "Independent, privacy-first search engine with its own web index",
+              "icon": "favicons/privacy-tools/brave-search.png",
+              "platforms": [
+                "web"
+              ],
+              "languages": [
+                "MULTI"
+              ],
+              "contentTypes": [
+                "search-engine"
+              ],
+              "pricing": "free",
+              "actions": {
+                "default-search": "disclaimer.html"
+              },
+              "pin": 20
+            },
+            {
+              "name": "Mojeek",
+              "type": "hybrid",
+              "url": "disclaimer.html",
+              "description": "Independent search engine with its own crawler and index, no tracking or personalized results",
+              "icon": "favicons/privacy-tools/mojeek.png",
+              "platforms": [
+                "web"
+              ],
+              "languages": [
+                "EN"
+              ],
+              "contentTypes": [
+                "search-engine"
+              ],
+              "pricing": "free",
+              "actions": {
+                "default-search": "disclaimer.html"
+              }
             },
             {
               "name": "Whoogle",
@@ -695,7 +700,8 @@
               "actions": {
                 "apk": "disclaimer.html",
                 "fdroid": "disclaimer.html"
-              }
+              },
+              "pin": 10
             },
             {
               "name": "HeliBoard",
@@ -1373,42 +1379,6 @@
           "title": "Deals & Databases",
           "links": [
             {
-              "name": "Fanatical",
-              "type": "standard",
-              "url": "disclaimer.html",
-              "description": "Sells discounted PC game keys, bundles, ebooks, and digital comics",
-              "icon": "favicons/gaming/fanatical.png",
-              "platforms": [
-                "web"
-              ],
-              "languages": [
-                "EN"
-              ],
-              "contentTypes": [
-                "videogames"
-              ],
-              "pricing": "paid"
-            },
-            {
-              "name": "Humble Bundle",
-              "type": "standard",
-              "url": "disclaimer.html",
-              "description": "Sells pay-what-you-want bundles of games, books, and software supporting charity",
-              "icon": "favicons/gaming/humble-bundle.png",
-              "platforms": [
-                "web"
-              ],
-              "languages": [
-                "EN"
-              ],
-              "contentTypes": [
-                "videogames",
-                "books",
-                "audiobooks"
-              ],
-              "pricing": "paid"
-            },
-            {
               "name": "IsThereAnyDeal",
               "type": "standard",
               "url": "disclaimer.html",
@@ -1420,24 +1390,27 @@
               "languages": [
                 "EN"
               ],
-              "pricing": "free"
+              "pricing": "free",
+              "pin": 10
             },
             {
-              "name": "SteamDB",
+              "name": "Green Man Gaming",
               "type": "standard",
               "url": "disclaimer.html",
-              "description": "Steam discount database with filters",
-              "icon": "favicons/gaming/steamdb.png",
+              "description": "Sells video game keys and digital games at discounted prices.",
+              "icon": "favicons/gaming/green-man-gaming.png",
               "platforms": [
                 "web"
               ],
               "languages": [
+                "MULTI",
                 "EN"
               ],
               "contentTypes": [
                 "videogames"
               ],
-              "pricing": "free"
+              "pricing": "paid",
+              "pin": 20
             },
             {
               "name": "GOG.com",
@@ -1457,23 +1430,61 @@
               "contentTypes": [
                 "videogames"
               ],
-              "pricing": "paid"
+              "pricing": "paid",
+              "pin": 30
             },
             {
-              "name": "Green Man Gaming",
+              "name": "Fanatical",
               "type": "standard",
               "url": "disclaimer.html",
-              "description": "Sells video game keys and digital games at discounted prices.",
-              "icon": "favicons/gaming/green-man-gaming.png",
+              "description": "Sells discounted PC game keys, bundles, ebooks, and digital comics",
+              "icon": "favicons/gaming/fanatical.png",
               "platforms": [
                 "web"
               ],
               "languages": [
-                "MULTI",
                 "EN"
               ],
               "contentTypes": [
                 "videogames"
+              ],
+              "pricing": "paid",
+              "pin": 40
+            },
+            {
+              "name": "SteamDB",
+              "type": "standard",
+              "url": "disclaimer.html",
+              "description": "Steam discount database with filters",
+              "icon": "favicons/gaming/steamdb.png",
+              "platforms": [
+                "web"
+              ],
+              "languages": [
+                "EN"
+              ],
+              "contentTypes": [
+                "videogames"
+              ],
+              "pricing": "free",
+              "pin": 50
+            },
+            {
+              "name": "Humble Bundle",
+              "type": "standard",
+              "url": "disclaimer.html",
+              "description": "Sells pay-what-you-want bundles of games, books, and software supporting charity",
+              "icon": "favicons/gaming/humble-bundle.png",
+              "platforms": [
+                "web"
+              ],
+              "languages": [
+                "EN"
+              ],
+              "contentTypes": [
+                "videogames",
+                "books",
+                "audiobooks"
               ],
               "pricing": "paid"
             }
@@ -2484,6 +2495,33 @@
           "title": "Local AI",
           "links": [
             {
+              "name": "AnythingLLM",
+              "type": "hybrid",
+              "url": "disclaimer.html",
+              "description": "Runs private local AI chats with documents and agents",
+              "icon": "favicons/ai-machine-learning/anythingllm.png",
+              "platforms": [
+                "web",
+                "desktop",
+                "mobile",
+                "self-hosted"
+              ],
+              "languages": [
+                "EN"
+              ],
+              "contentTypes": [
+                "interactive"
+              ],
+              "tools": [
+                "ai"
+              ],
+              "pricing": "freemium",
+              "actions": {
+                "github": "disclaimer.html",
+                "instructions": "disclaimer.html"
+              }
+            },
+            {
               "name": "GPT4All",
               "type": "hybrid",
               "url": "disclaimer.html",
@@ -2573,6 +2611,34 @@
                 "ai"
               ],
               "pricing": "free"
+            },
+            {
+              "name": "LocalAI",
+              "type": "hybrid",
+              "url": "disclaimer.html",
+              "description": "Runs open-source AI models locally with OpenAI-compatible APIs",
+              "icon": "favicons/ai-machine-learning/localai.png",
+              "platforms": [
+                "web",
+                "self-hosted"
+              ],
+              "languages": [
+                "EN"
+              ],
+              "contentTypes": [
+                "image"
+              ],
+              "tools": [
+                "ai"
+              ],
+              "topics": [
+                "technology"
+              ],
+              "pricing": "free",
+              "actions": {
+                "docker": "disclaimer.html",
+                "github": "disclaimer.html"
+              }
             },
             {
               "name": "Ollama",
@@ -2981,6 +3047,29 @@
               ],
               "tools": [
                 "ai"
+              ],
+              "pricing": "free"
+            },
+            {
+              "name": "Spark Arena",
+              "type": "standard",
+              "url": "disclaimer.html",
+              "description": "Publishes LLM performance benchmarks for DGX Spark systems",
+              "icon": "favicons/ai-machine-learning/spark-arena.png",
+              "platforms": [
+                "web"
+              ],
+              "languages": [
+                "EN"
+              ],
+              "contentTypes": [
+                "leaderboard"
+              ],
+              "tools": [
+                "info"
+              ],
+              "topics": [
+                "technology"
               ],
               "pricing": "free"
             }
@@ -3939,6 +4028,29 @@
                 "technology"
               ],
               "pricing": "free"
+            },
+            {
+              "name": "WhisperX",
+              "type": "action",
+              "description": "Transcribes audio with word timestamps and speaker diarization",
+              "icon": "favicons/developer-tools/whisperx.png",
+              "platforms": [
+                "download",
+                "self-hosted"
+              ],
+              "languages": [
+                "EN"
+              ],
+              "tools": [
+                "ai"
+              ],
+              "topics": [
+                "technology"
+              ],
+              "pricing": "free",
+              "actions": {
+                "github": "disclaimer.html"
+              }
             }
           ]
         }
