@@ -802,6 +802,55 @@
               "pricing": "freemium"
             }
           ]
+        },
+        {
+          "id": "tools",
+          "title": "Tools",
+          "links": [
+            {
+              "name": "Blacklight",
+              "type": "standard",
+              "url": "disclaimer.html",
+              "description": "Scans websites for trackers and privacy violations",
+              "icon": "favicons/privacy-tools/blacklight.png",
+              "platforms": [
+                "web"
+              ],
+              "languages": [
+                "EN"
+              ],
+              "tools": [
+                "info",
+                "ai"
+              ],
+              "topics": [
+                "privacy"
+              ],
+              "pricing": "free"
+            },
+            {
+              "name": "DecryptAds",
+              "type": "standard",
+              "url": "disclaimer.html",
+              "description": "Maps ad-tech supply chains from public disclosure files",
+              "icon": "favicons/privacy-tools/decryptads.png",
+              "platforms": [
+                "web"
+              ],
+              "languages": [
+                "EN"
+              ],
+              "tools": [
+                "info",
+                "ai"
+              ],
+              "topics": [
+                "privacy",
+                "technology"
+              ],
+              "pricing": "freemium"
+            }
+          ]
         }
       ]
     },
@@ -2377,6 +2426,27 @@
               ],
               "contentTypes": [
                 "documentaries"
+              ],
+              "pricing": "free"
+            },
+            {
+              "name": "MyRadioGlobal",
+              "type": "standard",
+              "url": "disclaimer.html",
+              "description": "Streams thousands of free live radio stations worldwide",
+              "icon": "favicons/media-streaming/myradioglobal.png",
+              "platforms": [
+                "web"
+              ],
+              "languages": [
+                "EN"
+              ],
+              "contentTypes": [
+                "music",
+                "live"
+              ],
+              "tools": [
+                "online"
               ],
               "pricing": "free"
             },
@@ -4093,6 +4163,23 @@
               ],
               "tools": [
                 "ai"
+              ],
+              "pricing": "freemium"
+            },
+            {
+              "name": "Postimages",
+              "type": "standard",
+              "url": "disclaimer.html",
+              "description": "Uploads and host images and generates permanent sharing links",
+              "icon": "favicons/file-media-tools/postimages.png",
+              "platforms": [
+                "web"
+              ],
+              "languages": [
+                "EN"
+              ],
+              "tools": [
+                "file-sharing"
               ],
               "pricing": "freemium"
             },
