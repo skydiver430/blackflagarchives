@@ -2519,7 +2519,8 @@
               "actions": {
                 "github": "disclaimer.html",
                 "instructions": "disclaimer.html"
-              }
+              },
+              "compactActions": true
             },
             {
               "name": "GPT4All",
@@ -2638,7 +2639,8 @@
               "actions": {
                 "docker": "disclaimer.html",
                 "github": "disclaimer.html"
-              }
+              },
+              "compactActions": true
             },
             {
               "name": "Ollama",
@@ -4031,7 +4033,8 @@
             },
             {
               "name": "WhisperX",
-              "type": "action",
+              "type": "standard",
+              "url": "disclaimer.html",
               "description": "Transcribes audio with word timestamps and speaker diarization",
               "icon": "favicons/developer-tools/whisperx.png",
               "platforms": [
@@ -4047,10 +4050,7 @@
               "topics": [
                 "technology"
               ],
-              "pricing": "free",
-              "actions": {
-                "github": "disclaimer.html"
-              }
+              "pricing": "free"
             }
           ]
         }
